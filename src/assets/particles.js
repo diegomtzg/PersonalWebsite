@@ -10,6 +10,10 @@ const particleParams = {
        "color": {
          "value": "#ffffff"
        },
+       "backgroundMode": {
+        "enable": true,
+        "zIndex": -1
+      },
        "shape": {
          "type": "circle",
          "stroke": {

@@ -11,7 +11,7 @@
     left:0;
     top:0;
     width:100%;
-    height:100%;
+    height:100% !important;
 }
 
 .navbar {
@@ -19,6 +19,13 @@
 }
 
 .home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.about {
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,10 +1,19 @@
-import { render } from '@testing-library/react';
-import React from 'react';
+import React from "react";
+import Grid from "@material-ui/core/Grid";
+import Typography from "@material-ui/core/Typography";
 
-function Work() {
+function Contact() {
   return (
-    <h1>This is the work page.</h1>
+    <div className="section contact">
+      <Grid container spacing={1}>
+        <Grid item xs={12} align="center">
+          <Typography component="h2" variant="h2">
+            Contact
+          </Typography>
+        </Grid>
+      </Grid>
+    </div>
   );
 }
 
-export default Work;
+export default Contact;

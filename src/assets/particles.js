@@ -11,7 +11,7 @@ const particleParams = {
          "value": "#ffffff"
        },
        "backgroundMode": {
-        "enable": true,
+        "enable": false,
         "zIndex": -1
       },
        "shape": {

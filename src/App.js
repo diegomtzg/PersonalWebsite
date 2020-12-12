@@ -1,12 +1,11 @@
 import React from "react";
-import Particles from "react-tsparticles";
-import ReactFullpage from "@fullpage/react-fullpage";
-
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Work from "./components/Work";
-import './App.css'
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -14,6 +13,10 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <Work />
+      <Projects />
+      <Skills />
+      <Contact />
     </div>
   );
 }

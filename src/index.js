@@ -8,11 +8,15 @@ import "./index.css";
 import App from "./App";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
+import $ from "jquery";
 import theme from "./theme";
 import reportWebVitals from "./reportWebVitals";
 
 function onLeave(origin, destination, direction) {
-  console.log(origin, destination, direction);
+  var oldNav = $("#" + origin.anchor + "-nav")
+  var newNav = $("#" + destination.anchor + "-nav")
+  oldNav.removeClass("active")
+  newNav.addClass("active")
 }
 
 // Option documentation at https://github.com/alvarotrigo/fullPage.js#options

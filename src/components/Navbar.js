@@ -16,9 +16,6 @@ function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span></span>
-            <span></span>
-            <span></span>
           </button>
           <div
             className="navbar-collapse collapse justify-content-end"
@@ -26,22 +23,32 @@ function Navbar() {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link js-scroll active" href="#home">
+                <a id="home-nav" className="nav-link js-scroll active" href="#home">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll" href="#about">
+                <a id="about-nav" className="nav-link js-scroll" href="#about">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll" href="#work">
+                <a id="work-nav" className="nav-link js-scroll" href="#work">
                   Work
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll" href="#contact">
+                <a id="projects-nav" className="nav-link js-scroll" href="#projects">
+                  Projects
+                </a>
+              </li>
+              <li className="nav-item">
+                <a id="skills-nav" className="nav-link js-scroll" href="#skills">
+                  Skills
+                </a>
+              </li>
+              <li className="nav-item">
+                <a id="contact-nav" className="nav-link js-scroll" href="#contact">
                   Contact
                 </a>
               </li>

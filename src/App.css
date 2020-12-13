@@ -16,6 +16,7 @@
 #header {
   position: fixed !important;
   color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 .avatar {

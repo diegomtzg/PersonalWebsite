@@ -1,12 +1,24 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createMuiTheme } from "@material-ui/core/styles";
 
 const theme = createMuiTheme({
+  typography: {
+    h2: {
+      fontWeight: "600",
+    },
+    h3: {
+      fontSize: "2em",
+    },
+    h4: {
+      fontSize: "1.6em",
+    },
+    fontFamily: "Montserrat,sans-serif;",
+  },
   palette: {
     primary: {
-      main: '#ffffff',
+      main: "#ffffff",
     },
     secondary: {
-      main: '#ffffff',
+      main: "#ffffff",
     },
   },
 });

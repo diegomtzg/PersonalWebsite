@@ -2,7 +2,7 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 
-function Projects() {
+export default function Projects() {
   return (
     <div className="section projects">
       <Grid container spacing={1}>
@@ -15,5 +15,3 @@ function Projects() {
     </div>
   );
 }
-
-export default Projects;

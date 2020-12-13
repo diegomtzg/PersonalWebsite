@@ -2,7 +2,7 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 
-function Contact() {
+export default function Contact() {
   return (
     <div className="section contact">
       <Grid container spacing={1}>
@@ -15,5 +15,3 @@ function Contact() {
     </div>
   );
 }
-
-export default Contact;

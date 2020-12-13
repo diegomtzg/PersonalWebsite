@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 
-function App(fpApi) {
+export default function App() {
   return (
     <div className="main">
       <Navbar />
@@ -20,5 +20,3 @@ function App(fpApi) {
     </div>
   );
 }
-
-export default App;

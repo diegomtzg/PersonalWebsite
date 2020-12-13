@@ -1,6 +1,4 @@
 import React from 'react';
 
-function App() {
+export default function Footer() {
 }
-
-export default App;

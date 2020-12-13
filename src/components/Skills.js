@@ -2,7 +2,7 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 
-function Skills() {
+export default function Skills() {
   return (
     <div className="section skills">
       <Grid container spacing={1}>
@@ -15,5 +15,3 @@ function Skills() {
     </div>
   );
 }
-
-export default Skills;

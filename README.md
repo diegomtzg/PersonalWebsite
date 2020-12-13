@@ -15,6 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 From the app's root folder, type:
 
 `npm i`
+
 `npm run build`
 
 Once the build finishes, deploy using:

@@ -11,6 +11,9 @@ const theme = createMuiTheme({
     h4: {
       fontSize: "1.6em",
     },
+    h6: {
+      fontSize: "1em",
+    },
     fontFamily: "Montserrat,sans-serif",
   },
   palette: {

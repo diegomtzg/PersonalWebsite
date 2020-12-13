@@ -10,7 +10,7 @@ export default function About() {
   return (
     <div className="section home">
       <Grid container direction="row" alignItems="center" justify="flex-start">
-        <Grid item xs={1}></Grid>
+        <Grid item xs={1} />
         <Grid item xs={10} md={6} align="center">
           {/* https://www.react-reveal.com/docs/props/ */}
           <Fade left delay={700}>
@@ -32,7 +32,7 @@ export default function About() {
             </Fade>
           </Grid>
         </Hidden>
-        <Grid item xs={1}></Grid>
+        <Grid item xs={1} />
       </Grid>
     </div>
   );

@@ -1,4 +1,7 @@
 import React from "react";
+import Grid from "@material-ui/core/Grid";
+import Hidden from "@material-ui/core/Hidden";
+import Typography from "@material-ui/core/Typography";
 
 export default function Navbar() {
   return (
@@ -6,23 +9,16 @@ export default function Navbar() {
       className="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
       id="header"
     >
-      <div className="container">
-        <a className="navbar-brand js-scroll" href="#home">
-          <h3>Diego Martinez</h3>
-        </a>
-        <button
-          className="navbar-toggler collapsed"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarDefault"
-          aria-controls="navbarDefault"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        ></button>
-        <div
-          className="navbar-collapse collapse justify-content-end"
-          id="navbarDefault"
-        >
+      <Grid container direction="row" justify="space-between">
+        <Grid item>
+          <Hidden smDown>
+            <a className="navbar-brand js-scroll" href="#home">
+              <Typography variant="h5">Diego Martinez</Typography>
+            </a>
+          </Hidden>
+        </Grid>
+
+        <Grid item>
           <ul className="navbar-nav">
             <li className="nav-item">
               <a
@@ -30,17 +26,17 @@ export default function Navbar() {
                 className="nav-link js-scroll active"
                 href="#home"
               >
-                Home
+                <Typography variant="h6">Home</Typography>
               </a>
             </li>
             <li className="nav-item">
               <a id="about-nav" className="nav-link js-scroll" href="#about">
-                About
+                <Typography variant="h6">About</Typography>
               </a>
             </li>
             <li className="nav-item">
               <a id="work-nav" className="nav-link js-scroll" href="#work">
-                Work
+                <Typography variant="h6">Work</Typography>
               </a>
             </li>
             <li className="nav-item">
@@ -49,12 +45,12 @@ export default function Navbar() {
                 className="nav-link js-scroll"
                 href="#projects"
               >
-                Projects
+                <Typography variant="h6">Projects</Typography>
               </a>
             </li>
             <li className="nav-item">
               <a id="skills-nav" className="nav-link js-scroll" href="#skills">
-                Skills
+                <Typography variant="h6">Skills</Typography>
               </a>
             </li>
             <li className="nav-item">
@@ -63,12 +59,12 @@ export default function Navbar() {
                 className="nav-link js-scroll"
                 href="#contact"
               >
-                Contact
+                <Typography variant="h6">Contact</Typography>
               </a>
             </li>
           </ul>
-        </div>
-      </div>
+        </Grid>
+      </Grid>
     </nav>
   );
 }

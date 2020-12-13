@@ -1,12 +1,12 @@
 const particleParams = {
   background: {
     color: {
-      value: "#010101",
+      value: "#0b0b0b",
     },
   },
   particles: {
     number: {
-      value: 50,
+      value: 110,
       density: {
         enable: true,
         value_area: 800,
@@ -53,7 +53,7 @@ const particleParams = {
       distance: 150,
       color: "#ffffff",
       opacity: 0.4,
-      width: 1,
+      width: 0.5,
     },
     move: {
       enable: true,
@@ -90,22 +90,8 @@ const particleParams = {
           opacity: 1,
         },
       },
-      bubble: {
-        distance: 400,
-        size: 40,
-        duration: 2,
-        opacity: 8,
-        speed: 3,
-      },
-      repulse: {
-        distance: 200,
-        duration: 0.4,
-      },
       push: {
         particles_nb: 3,
-      },
-      remove: {
-        particles_nb: 2,
       },
     },
   },

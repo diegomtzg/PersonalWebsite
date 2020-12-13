@@ -13,10 +13,9 @@ import theme from "./theme";
 import reportWebVitals from "./reportWebVitals";
 
 function onLeave(origin, destination, direction) {
-  var oldNav = $("#" + origin.anchor + "-nav");
-  var newNav = $("#" + destination.anchor + "-nav");
-  oldNav.removeClass("active");
-  newNav.addClass("active");
+  console.log(origin.anchor, destination.anchor);
+  $("#" + origin.anchor + "-nav").removeClass("active");
+  $("#" + destination.anchor + "-nav").addClass("active");
 }
 
 // Option documentation at https://github.com/alvarotrigo/fullPage.js#options

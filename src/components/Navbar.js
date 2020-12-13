@@ -20,7 +20,7 @@ function Navbar() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <AppBar position="fixed" color="transparent">
+      <AppBar id="header" position="fixed" color="transparent">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
             Diego Martinez

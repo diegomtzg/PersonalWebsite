@@ -25,17 +25,16 @@ const Fullpage = () => (
     onLeave={onLeave}
     menu="#menu"
     fitToSection
-    fixedElements={[".particles", ".navbar"]}
+    fixedElements={[".particles", "#header"]}
     render={({ state, fullpageApi }) => {
       return (
-        <ReactFullpage.Wrapper>\
-          <App />
+        <ReactFullpage.Wrapper>
           <Particles
             height="100vh"
             params={particleParams}
             className="particles"
           />
-          
+          <App />
         </ReactFullpage.Wrapper>
       );
     }}

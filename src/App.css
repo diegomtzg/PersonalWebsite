@@ -1,6 +1,5 @@
 .main {
   background-color:#030303;
-  font-size: calc(10px + 2vmin);
   color: white;
   min-height: 100vh;
   height: auto;
@@ -14,8 +13,9 @@
     height:100% !important;
 }
 
-.navbar {
+#header {
   position: fixed !important;
+  color: white;
 }
 
 #fp-nav ul li a span {

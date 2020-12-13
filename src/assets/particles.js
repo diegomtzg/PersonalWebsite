@@ -75,7 +75,7 @@ const particleParams = {
            "mode": "grab"
          },
          "onclick": {
-           "enable": false,
+           "enable": true,
            "mode": "push"
          },
          "resize": true
@@ -99,7 +99,7 @@ const particleParams = {
            "duration": 0.4
          },
          "push": {
-           "particles_nb": 4
+           "particles_nb": 3
          },
          "remove": {
            "particles_nb": 2

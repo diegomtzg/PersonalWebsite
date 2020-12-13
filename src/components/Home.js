@@ -19,9 +19,9 @@ function Home() {
                 "Technology Optimist",
                 "Full Stack Developer",
               ]}
-              typeSpeed={80}
-              backDelay={1100}
-              backSpeed={30}
+              typeSpeed={70}
+              backDelay={1500}
+              backSpeed={40}
               loop
             />
           </Typography>

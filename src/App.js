@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 
-export default function App() {
+export default function App(props) {
   return (
     <div className="main">
       <Navbar />

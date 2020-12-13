@@ -26,9 +26,8 @@ const Fullpage = () => (
     anchors={["home", "about", "work", "projects", "skills", "contact"]}
     recordHistory={false}
     onLeave={onLeave}
-    menu="#menu"
     fitToSection
-    fixedElements={[".particles", "#header"]}
+    fixedElements={[".particles", "#header", "#top-button"]}
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper>

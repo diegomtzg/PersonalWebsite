@@ -9,9 +9,9 @@ import avatar from "../assets/images/memoji.png";
 export default function About() {
   return (
     <div className="section home">
-      <Grid container direction="row" alignItems="center">
+      <Grid container direction="row" alignItems="center" justify="flex-start">
         <Grid item xs={1}></Grid>
-        <Grid item xs={10} md={6} align="center" justify="flex-start">
+        <Grid item xs={10} md={6} align="center">
           {/* https://www.react-reveal.com/docs/props/ */}
           <Fade left delay={700}>
             <Typography variant="h2" align="left">
@@ -26,7 +26,7 @@ export default function About() {
         </Grid>
         {/* Hide avatar on small screens */}
         <Hidden smDown>
-          <Grid item md={4} align="center" justify="center">
+          <Grid item md={4} align="center">
             <Fade right>
               <img className="avatar" src={avatar} alt="Diego Martinez"></img>
             </Fade>

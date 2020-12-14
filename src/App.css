@@ -25,6 +25,11 @@
   height: auto;
 }
 
+.intro-titles {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 /* Page Nav Dots */
 #fp-nav ul li a span {
   background-color: white;

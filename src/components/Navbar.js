@@ -12,6 +12,7 @@ export default function Navbar() {
       <Grid container direction="row" justify="space-between">
         <Grid item>
           <Hidden smDown>
+            <Grid item xs={1} />
             <a className="navbar-brand js-scroll" href="#home">
               <Typography variant="h5">Diego Martinez</Typography>
             </a>
@@ -27,11 +28,6 @@ export default function Navbar() {
                 href="#home"
               >
                 <Typography variant="h6">Home</Typography>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a id="about-nav" className="nav-link js-scroll" href="#about">
-                <Typography variant="h6">About</Typography>
               </a>
             </li>
             <li className="nav-item">
@@ -51,15 +47,6 @@ export default function Navbar() {
             <li className="nav-item">
               <a id="skills-nav" className="nav-link js-scroll" href="#skills">
                 <Typography variant="h6">Skills</Typography>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                id="contact-nav"
-                className="nav-link js-scroll"
-                href="#contact"
-              >
-                <Typography variant="h6">Contact</Typography>
               </a>
             </li>
           </ul>

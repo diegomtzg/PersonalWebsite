@@ -22,7 +22,7 @@ function onLeave(origin, destination, direction) {
 const Fullpage = () => (
   <ReactFullpage
     navigation
-    anchors={["home", "about", "work", "projects", "skills", "contact"]}
+    anchors={["home", "work", "projects", "skills"]}
     recordHistory={false}
     onLeave={onLeave}
     fitToSection

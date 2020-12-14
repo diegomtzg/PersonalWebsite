@@ -1,6 +1,8 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import WorkCard from "./WorkCard";
+import facebookLogo from "../assets/images/facebookLogo.png";
+import googleLogo from "../assets/images/googleLogo.png";
 
 export default function Work() {
   return (
@@ -18,7 +20,7 @@ export default function Work() {
                       desc:
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                       date: "June 2018 – Present",
-                      companylogo: require("../assets/images/facebookLogo.png"),
+                      companyLogo: { facebookLogo },
                       role: "Software Engineer",
                       descBullets: [
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -33,7 +35,7 @@ export default function Work() {
                       desc:
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                       date: "June 2018 – Present",
-                      companylogo: require("../assets/images/facebookLogo.png"),
+                      companyLogo: { googleLogo },
                       role: "Software Engineer",
                       descBullets: [
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -48,7 +50,7 @@ export default function Work() {
                       desc:
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                       date: "June 2018 – Present",
-                      companylogo: require("../assets/images/facebookLogo.png"),
+                      companyLogo: { facebookLogo },
                       role: "Software Engineer",
                       descBullets: [
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",

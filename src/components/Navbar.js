@@ -31,11 +31,7 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a
-                id="about-nav"
-                className="nav-link js-scroll active"
-                href="#about"
-              >
+              <a id="about-nav" className="nav-link js-scroll" href="#about">
                 <Typography variant="h6">about</Typography>
               </a>
             </li>

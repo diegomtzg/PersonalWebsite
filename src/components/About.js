@@ -4,7 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import Hidden from "@material-ui/core/Hidden";
 import emoji from "react-easy-emoji";
 import Fade from "react-reveal/Fade";
-import avatar from "../assets/images/memoji.png";
+import profilePic from "../assets/images/memoji.png";
 
 export default function About() {
   return (
@@ -13,7 +13,7 @@ export default function About() {
         <Grid item xs={1} />
         <Grid item xs={10} md={6} align="center">
           {/* https://www.react-reveal.com/docs/props/ */}
-          <Fade left delay={700}>
+          <Fade left delay={500}>
             <Typography variant="h2" align="left">
               Hi! I'm Diego <span className="wave-emoji">{emoji("👋🏼")}</span>
             </Typography>
@@ -28,7 +28,11 @@ export default function About() {
         <Hidden smDown>
           <Grid item md={4} align="center">
             <Fade right>
-              <img className="avatar" src={avatar} alt="Diego Martinez"></img>
+              <img
+                className="about-picture"
+                src={profilePic}
+                alt="Diego Martinez"
+              ></img>
             </Fade>
           </Grid>
         </Hidden>

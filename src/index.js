@@ -3,13 +3,13 @@ import ReactDOM from "react-dom";
 import { ThemeProvider } from "@material-ui/core/styles";
 import ReactFullpage from "@fullpage/react-fullpage";
 import Particles from "react-tsparticles";
-import particleParams from "./assets/particles.js";
-import "./index.css";
+import particleParams from "./static/const/particles.js";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
 import $ from "jquery";
-import theme from "./theme";
+import "./static/css/App.css";
+import "./static/css/index.css";
+import theme from "./static/const/theme";
 import reportWebVitals from "./reportWebVitals";
 
 function onLeave(origin, destination, direction) {
@@ -21,11 +21,11 @@ function onLeave(origin, destination, direction) {
 // Option documentation at https://github.com/alvarotrigo/fullPage.js#options
 const Fullpage = () => (
   <ReactFullpage
-    navigation
     anchors={["home", "about", "work", "projects", "skills"]}
     recordHistory={false}
     onLeave={onLeave}
     fitToSection
+    touchSensitivity={15}
     fixedElements={[".particles", "#header", "#top-button"]}
     render={({ state, fullpageApi }) => {
       return (

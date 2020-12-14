@@ -8,12 +8,12 @@ import avatar from "../assets/images/memoji.png";
 
 export default function About() {
   return (
-    <div className="section about">
-      <Grid container direction="row" alignItems="left" justify="flex-start">
+    <div className="section home">
+      <Grid container direction="row" alignItems="center" justify="flex-start">
         <Grid item xs={1} />
-        <Grid item xs={10} md={6}>
+        <Grid item xs={10} md={6} align="center">
           {/* https://www.react-reveal.com/docs/props/ */}
-          <Fade>
+          <Fade left delay={700}>
             <Typography variant="h2" align="left">
               Hi! I'm Diego <span className="wave-emoji">{emoji("👋🏼")}</span>
             </Typography>
@@ -27,7 +27,7 @@ export default function About() {
         {/* Hide avatar on small screens */}
         <Hidden smDown>
           <Grid item md={4} align="center">
-            <Fade>
+            <Fade right>
               <img className="avatar" src={avatar} alt="Diego Martinez"></img>
             </Fade>
           </Grid>

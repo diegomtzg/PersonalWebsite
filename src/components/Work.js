@@ -1,8 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import WorkCard from "./WorkCard";
-import facebookLogo from "../assets/images/facebookLogo.png";
-import googleLogo from "../assets/images/googleLogo.png";
 
 export default function Work() {
   return (
@@ -14,47 +12,41 @@ export default function Work() {
               <div>
                 <div className="experience-cards-div">
                   <WorkCard
-                    isDark={true}
                     cardInfo={{
-                      company: "Facebook",
+                      company: "Google[X]",
+                      companyLink:
+                        "https://x.company/projects/everyday-robots/",
                       desc:
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                      date: "June 2018 – Present",
-                      companyLogo: { facebookLogo },
-                      role: "Software Engineer",
+                        "Explored new grasp proposal representations for an end-to-end RL deep-grasping policy in robot applications that used image embeddings.",
+                      date: "Summer 2020",
+                      role: "AI Resident",
+                      team: "The Everyday Robot Project",
                       descBullets: [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                        "Discovered grasp representations improved model performance by 4% on average.",
                       ],
                     }}
                   />
                   <WorkCard
-                    isDark={true}
                     cardInfo={{
-                      company: "Facebook",
+                      company: "Google[X]",
                       desc:
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                      date: "June 2018 – Present",
-                      companyLogo: { googleLogo },
-                      role: "Software Engineer",
+                        "Developed a VR interface to remotely teleoperate robots using an Oculus Quest.",
+                      date: "Summer 2019",
+                      role: "Robotics Software Intern",
                       descBullets: [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                        "This controller interface is actively being used to gather data to enable robots to autonomously learn new tasks.",
                       ],
                     }}
                   />
                   <WorkCard
-                    isDark={true}
                     cardInfo={{
-                      company: "Facebook",
+                      company: "Google",
                       desc:
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                      date: "June 2018 – Present",
-                      companyLogo: { facebookLogo },
-                      role: "Software Engineer",
+                        "Developed a suite of static analyzers for Tricium, an automated code review tool for the Chrome open source project.",
+                      date: "Summer 2018",
+                      role: "Software Engineering Intern",
                       descBullets: [
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                        "The analyzers run 1,000’s reqs/hour and have generated hundreds of automated comments across Chrome dev teams.",
                       ],
                     }}
                   />
@@ -64,8 +56,38 @@ export default function Work() {
           </Fade>
         </div>
       </div>
-
-      <div className="slide"></div>
+      <div className="slide">
+        <div id="experience">
+          <div className="experience-container" id="workExperience">
+            <div>
+              <div className="experience-cards-div">
+                <WorkCard
+                  cardInfo={{
+                    company: "Carnegie Mellon University",
+                    desc: "Teaching assistant for 17-214",
+                    date: "Summer 2018",
+                    role: "TA",
+                    descBullets: ["Ta'd"],
+                  }}
+                />
+                <WorkCard
+                  cardInfo={{
+                    company: "Microsoft",
+                    desc:
+                      "Spearheaded the technical specification, user experience design and the implementation of various features for the Microsoft Authenticator Android app:",
+                    date: "Summer 2017",
+                    role: "Explore Intern",
+                    descBullets: [
+                      "Cloud-based backup and restore for 2FA accounts.",
+                      "In-app Microsoft account profile picture updates.",
+                    ],
+                  }}
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

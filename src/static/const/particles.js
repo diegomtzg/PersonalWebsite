@@ -1,7 +1,7 @@
 const particleParams = {
   background: {
     color: {
-      value: "#0b0b0b",
+      value: "#0f0f0f",
     },
   },
   particles: {

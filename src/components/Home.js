@@ -9,7 +9,7 @@ export default function Home() {
       <Grid container spacing={1}>
         <Grid item xs={12} align="center">
           <Typography variant="h2">Diego Martinez</Typography>
-          <Typography variant="h3">
+          <Typography variant="h3" className="typewriter">
             <Typed
               strings={[
                 "Software Engineer",

@@ -1,20 +1,26 @@
+a {
+  text-decoration: none !important;
+}
+
 .experience-card {
   position: relative;
   background: rgba(11, 11, 11, 0.7);
-  box-shadow: rgba(255, 255, 255, 0.068) 0px 10px 30px -15px;
   border-radius: 10px;
-  border: 1px solid rgba(211, 211, 211, 0.397);
+  border: 1px solid rgba(211, 211, 211, 0);
+  min-height: 540px;
+  max-width: 500px;
 }
 
 .experience-card:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  border: 1px solid rgba(109, 169, 229, 0.842);
 }
 
 .experience-banner {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 150%;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(73, 73, 73, 0.842), rgba(0, 0, 0, 0));
   border-radius: 10px 10px 0px 0px;
   -webkit-filter: blur(0px);
   -moz-filter: blur(0px);
@@ -29,7 +35,7 @@
 
 .experience-blurred_div {
   position: absolute;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2));
+  background: linear-gradient(rgba(109, 169, 229, 0.842), rgba(0, 0, 0, 0.2));
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
@@ -98,13 +104,19 @@
   color: black;
   font-size: 20px;
   margin: 0px;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
   font-weight: 600;
 }
 
 .experience-text-desc {
   color: white !important;
   text-align: center;
+}
+
+.experience-text-desc-bullets {
+  color: white !important;
+  text-align: left;
 }
 
 .experience-text-details {

@@ -2,6 +2,7 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Hidden from "@material-ui/core/Hidden";
 import Typography from "@material-ui/core/Typography";
+import DM from "../assets/images/DM.png";
 
 export default function Navbar() {
   return (
@@ -14,7 +15,7 @@ export default function Navbar() {
           <Hidden smDown>
             <Grid item xs={1} />
             <a className="navbar-brand js-scroll" href="#home">
-              <Typography variant="h5">Diego Martinez</Typography>
+              <img className="dm-logo" src={DM} alt="DM Logo" />
             </a>
           </Hidden>
         </Grid>

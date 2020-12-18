@@ -15,9 +15,20 @@
 }
 
 #header {
+  margin-top: 5px;
   position: fixed !important;
   color: white;
   font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+}
+
+.dm-logo {
+  margin-right: 10px;
+  width: 15%;
+  height: auto;
 }
 
 .about-picture {
@@ -89,7 +100,7 @@
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #fff;
+  background-color: #6daae3;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {

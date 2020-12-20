@@ -4,7 +4,7 @@ a {
 
 .experience-card {
   position: relative;
-  background: rgba(11, 11, 11, 0.7);
+  background: rgba(11, 11, 11, 0.8);
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0);
   min-height: 540px;
@@ -13,21 +13,21 @@ a {
 
 .experience-card:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
-  border: 1px solid rgba(109, 169, 229, 0.842);
+  border: 1px solid rgba(255, 255, 255, 1);
 }
 
 .experience-banner {
+  border-radius: 10px 10px 0px 0px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 150%;
-  background: linear-gradient(rgba(73, 73, 73, 0.842), rgba(0, 0, 0, 0));
-  border-radius: 10px 10px 0px 0px;
-  -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
-  -o-filter: blur(0px);
-  -ms-filter: blur(0px);
-  filter: blur(0px);
-  height: 11rem;
+  background: rgba(34, 34, 34, 0.74);
+  background-image: linear-gradient(
+    109.6deg,
+    rgb(41, 68, 71) 16%,
+    rgb(226, 226, 226) 91.1%
+  );
+  height: 10.5rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -35,7 +35,7 @@ a {
 
 .experience-blurred_div {
   position: absolute;
-  background: linear-gradient(rgba(109, 169, 229, 0.842), rgba(0, 0, 0, 0.2));
+  /* background: linear-gradient(rgba(112, 98, 240, 0.459), rgba(0, 0, 0, 0.2)); */
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);

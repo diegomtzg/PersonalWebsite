@@ -100,7 +100,7 @@
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #6daae3;
+  background-color: rgb(255, 255, 255);
 }
 
 .navbar-b.navbar-trans .nav-link:hover {

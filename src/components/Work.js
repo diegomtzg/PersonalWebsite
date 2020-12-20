@@ -29,6 +29,8 @@ export default function Work() {
                   <WorkCard
                     cardInfo={{
                       company: "Google[X]",
+                      companyLink:
+                        "https://x.company/projects/everyday-robots/",
                       desc:
                         "Developed a VR interface to remotely teleoperate robots using an Oculus Quest.",
                       date: "Summer 2019",
@@ -41,6 +43,8 @@ export default function Work() {
                   <WorkCard
                     cardInfo={{
                       company: "Google",
+                      companyLink:
+                        "https://chromium.googlesource.com/infra/infra/+/master/go/src/infra/tricium/README.md",
                       desc:
                         "Developed a suite of static analyzers for Tricium, an automated code review tool for the Chrome open source project.",
                       date: "Summer 2018",
@@ -64,6 +68,8 @@ export default function Work() {
                 <WorkCard
                   cardInfo={{
                     company: "Carnegie Mellon University",
+                    companyLink:
+                      "https://www.cs.cmu.edu/~charlie/courses/17-214",
                     desc: "Teaching assistant for 17-214",
                     date: "Summer 2018",
                     role: "TA",
@@ -73,6 +79,8 @@ export default function Work() {
                 <WorkCard
                   cardInfo={{
                     company: "Microsoft",
+                    companyLink:
+                      "https://www.microsoft.com/en-us/account/authenticator",
                     desc:
                       "Spearheaded the technical specification, user experience design and the implementation of various features for the Microsoft Authenticator Android app:",
                     date: "Summer 2017",
@@ -81,6 +89,8 @@ export default function Work() {
                       "Cloud-based backup and restore for 2FA accounts.",
                       "In-app Microsoft account profile picture updates.",
                     ],
+                    headerColor:
+                      "linear-gradient(315deg, #3f0d12 0%, #a71d31 74%)",
                   }}
                 />
               </div>

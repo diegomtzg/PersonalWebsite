@@ -1,32 +1,9 @@
-.repo-cards-div-main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 1rem 1rem;
-}
-
-/* Media Query */
-@media (max-width: 1380px) {
-  .project-title {
-    font-size: 40px;
-  }
-}
-@media (max-width: 768px) {
-  .project-title {
-    font-size: 30px;
-    text-align: center;
-  }
-  .repo-cards-div-main {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
-}
-
 .repo-card-div {
   background-color: #171c28;
   color: white;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   padding: 2rem;
   cursor: pointer;
-  max-width: 500px;
 }
 .repo-card-div:hover {
   background-color: #55198b !important;

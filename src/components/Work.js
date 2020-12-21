@@ -70,10 +70,14 @@ export default function Work() {
                     company: "Carnegie Mellon University",
                     companyLink:
                       "https://www.cs.cmu.edu/~charlie/courses/17-214",
-                    desc: "Teaching assistant for 17-214",
+                    desc:
+                      "Taught concepts of design for complex systems, object oriented programming, techniques for robustness and concurrent software.",
                     date: "Summer 2018",
-                    role: "TA",
-                    descBullets: ["Ta'd"],
+                    role: "TA | Principles of Software Construction",
+                    descBullets: [
+                      "Held recitations, 1:1 office hours and course-wide exam review sessions for 100+ students.",
+                      "Provided medium-scale software design feedback and helped with homework grading.",
+                    ],
                   }}
                 />
                 <WorkCard

@@ -2,6 +2,11 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import WorkCard from "./WorkCard";
 
+import xLogo from "../assets/images/X.png";
+import googleLogo from "../assets/images/Google.png";
+import microsoftLogo from "../assets/images/Microsoft.png";
+import cmuLogo from "../assets/images/CMU_Red.png";
+
 export default function Work() {
   return (
     <div className="section work">
@@ -16,6 +21,7 @@ export default function Work() {
                       company: "Google[X]",
                       companyLink:
                         "https://x.company/projects/everyday-robots/",
+                      logo: xLogo,
                       desc:
                         "Explored new grasp proposal representations for an end-to-end RL deep-grasping policy in robot applications that used image embeddings.",
                       date: "Summer 2020",
@@ -31,6 +37,7 @@ export default function Work() {
                       company: "Google[X]",
                       companyLink:
                         "https://x.company/projects/everyday-robots/",
+                      logo: xLogo,
                       desc:
                         "Developed a VR interface to remotely teleoperate robots using an Oculus Quest.",
                       date: "Summer 2019",
@@ -45,6 +52,7 @@ export default function Work() {
                       company: "Google",
                       companyLink:
                         "https://chromium.googlesource.com/infra/infra/+/master/go/src/infra/tricium/README.md",
+                      logo: googleLogo,
                       desc:
                         "Developed a suite of static analyzers for Tricium, an automated code review tool for the Chrome open source project.",
                       date: "Summer 2018",
@@ -70,6 +78,7 @@ export default function Work() {
                     company: "Carnegie Mellon University",
                     companyLink:
                       "https://www.cs.cmu.edu/~charlie/courses/17-214",
+                    logo: cmuLogo,
                     desc:
                       "Taught concepts of design for complex systems, object oriented programming, techniques for robustness and concurrent software.",
                     date: "Summer 2018",
@@ -83,6 +92,7 @@ export default function Work() {
                 <WorkCard
                   cardInfo={{
                     company: "Microsoft",
+                    logo: microsoftLogo,
                     companyLink:
                       "https://www.microsoft.com/en-us/account/authenticator",
                     desc:

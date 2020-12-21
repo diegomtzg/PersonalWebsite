@@ -1,9 +1,5 @@
 import React from "react";
 import "../static/css/WorkExperience.css";
-import googleLogo from "../assets/images/Google.png";
-import xLogo from "../assets/images/X.png";
-import microsoftLogo from "../assets/images/Microsoft.png";
-import cmuLogo from "../assets/images/CMU_Red.png";
 
 export default function ExperienceCard({ cardInfo }) {
   const GetDescBullets = ({ descBullets }) => {
@@ -12,24 +8,6 @@ export default function ExperienceCard({ cardInfo }) {
       ? descBullets.map((item) => <li className="">{item}</li>)
       : null;
   };
-
-  var logo;
-  switch (cardInfo.company) {
-    case "Google":
-      logo = googleLogo;
-      break;
-    case "Google[X]":
-      logo = xLogo;
-      break;
-    case "Microsoft":
-      logo = microsoftLogo;
-      break;
-    case "Carnegie Mellon University":
-      logo = cmuLogo;
-      break;
-    default:
-      logo = cmuLogo;
-  }
 
   return (
     <a href={cardInfo.companyLink} target="_blank" rel="noopener noreferrer">
@@ -41,7 +19,7 @@ export default function ExperienceCard({ cardInfo }) {
           </div>
           <img
             className="experience-roundedimg"
-            src={logo}
+            src={cardInfo.logo}
             alt={cardInfo.company}
           />
         </div>

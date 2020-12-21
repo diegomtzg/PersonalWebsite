@@ -39,9 +39,13 @@
   margin-right: 0.75rem;
 }
 
-.repo-name-div {
+.project-name-div {
   display: flex;
   align-items: center;
+}
+
+.project-icon {
+  font: 24px;
 }
 
 .repo-svg {
@@ -49,7 +53,7 @@
   min-width: 16px;
 }
 
-.repo-name {
+.project-name {
   white-space: nowrap;
   text-overflow: ellipsis;
   color: rgb(255, 255, 255);
@@ -58,7 +62,7 @@
   font-weight: 700;
   letter-spacing: -0.5px;
   overflow: hidden;
-  margin: 0px;
+  margin: 0px 5px;
 }
 
 .repo-star-svg {

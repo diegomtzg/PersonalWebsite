@@ -12,8 +12,8 @@ a {
 
 .experience-card:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
-  border: 1px solid #00e1ff;
-  /* transform: scale(1.05); */
+  border: 2px solid #00e1ff;
+  transform: scale(1.05);
 }
 
 .experience-banner {
@@ -22,26 +22,11 @@ a {
   background-repeat: no-repeat;
   background-size: 150%;
   background: rgba(218, 218, 218, 0.562);
-  background: linear-gradient(#00e1ff -20%, #00000000 91.1%);
+  background: linear-gradient(#00e1ff 0%, #00000000 95%);
   height: 10.5rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
-}
-
-.experience-blurred_div {
-  position: absolute;
-  /* background: linear-gradient(rgba(112, 98, 240, 0.459), rgba(0, 0, 0, 0.2)); */
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-  height: 11rem;
-  top: 0;
-  left: 0;
-  width: 100%;
-  border-radius: 10px 10px 0px 0px;
 }
 
 .experience-div-company {

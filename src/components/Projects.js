@@ -17,6 +17,9 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
   return (
     <div className="section projects">
+      <Typography className="section-heading" component="h2" variant="h2">
+        Projects
+      </Typography>
       <div className="projects-grid">
         <ProjectCard
           projectInfo={{

@@ -10,6 +10,9 @@ import "../static/css/Education.css";
 export default function Education() {
   return (
     <div className="section education">
+      <Typography className="section-heading" component="h2" variant="h2">
+        Education
+      </Typography>
       <div className="education-card-container">
         <Fade left duration={1000}>
           <EducationCard

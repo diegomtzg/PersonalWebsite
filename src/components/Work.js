@@ -1,5 +1,6 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import Typography from "@material-ui/core/Typography";
 import WorkCard from "./WorkCard";
 
 import xLogo from "../assets/images/X.png";
@@ -11,6 +12,9 @@ export default function Work() {
   return (
     <div className="section work">
       <div className="slide">
+        <Typography className="section-heading" component="h2" variant="h2">
+          Work Experience
+        </Typography>
         <div id="experience">
           <Fade bottom duration={1000} distance="20px">
             <div className="experience-container" id="workExperience">
@@ -69,6 +73,9 @@ export default function Work() {
         </div>
       </div>
       <div className="slide">
+        <Typography className="section-heading" component="h2" variant="h2">
+          Work Experience
+        </Typography>
         <div id="experience">
           <div className="experience-container" id="workExperience">
             <div>

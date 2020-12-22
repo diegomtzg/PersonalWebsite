@@ -31,6 +31,11 @@
   height: auto;
 }
 
+.section-heading {
+  text-align: center;
+  padding: 0.5em 1em;
+}
+
 .about-picture {
   width: 30em;
   height: auto;

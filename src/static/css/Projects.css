@@ -2,7 +2,7 @@
   display: grid;
   justify-items: center;
   grid-gap: 2em;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
   grid-template-rows: auto;
   padding: 0 10em;
 }
@@ -13,12 +13,13 @@
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   padding: 2rem;
   cursor: pointer;
-  border: 2px solid #00e1ff;
 }
 
 .project-card-div:hover {
   transform: scale(1.1);
+  border: 2px solid #00e1ff;
 }
+
 .project-card-div:hover .project-name {
   color: #00e1ff !important;
   transform: scale(1.1);

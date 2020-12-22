@@ -24,6 +24,7 @@ import Box from "@material-ui/core/Box";
 import CardMedia from "@material-ui/core/CardMedia";
 import { useCoverCardMediaStyles } from "@mui-treasury/styles/cardMedia/cover";
 import { Row, Item } from "@mui-treasury/components/flex";
+import vitaeImg from "../assets/images/vitae.png";
 
 const useGridStyles = makeStyles(({ breakpoints }) => ({
   root: {
@@ -40,7 +41,7 @@ const useGridStyles = makeStyles(({ breakpoints }) => ({
 }));
 
 const useStyles = makeStyles(({ palette }) => ({
-  color: ({ color }: { color: string }) => ({
+  color: ({ color }) => ({
     "&:before": {
       backgroundColor: Color(color).darken(0.3).desaturate(0.2).toString(),
     },
@@ -73,7 +74,7 @@ const useStyles = makeStyles(({ palette }) => ({
   cover: {
     borderRadius: "1rem",
   },
-  content: ({ color }: { color: string }) => ({
+  content: ({ color }) => ({
     position: "relative",
     zIndex: 1,
     borderRadius: "1rem",
@@ -125,32 +126,25 @@ const useStyles = makeStyles(({ palette }) => ({
 }));
 
 export default function Projects() {
-  const styles1 = useStyles({ color: "#fc7944" });
-  const styles2 = useStyles({ color: "#5357ce" });
-  const gridStyles = useGridStyles();
   return (
     <div className="section projects">
       <div className="projects-grid">
-        <NoSsr>
-          <GoogleFontLoader
-            fonts={[{ font: "Fjalla One" }, { font: "Sen", weights: [500] }]}
-          />
-        </NoSsr>
+        <GoogleFontLoader
+          fonts={[{ font: "Fjalla One" }, { font: "Sen", weights: [500] }]}
+        />
         <Grid
           style={{ padding: 16 }}
-          classes={gridStyles}
+          classes={useGridStyles()}
           wrap={"nowrap"}
           container
           spacing={4}
         >
           <Grid item>
             <ProjectCard
-              styles={styles1}
+              styles={useStyles({ color: "#fc7944" })}
               brand={"Overwatch Official"}
               date={"02.04.2020"}
-              cover={
-                "https://cdn.vox-cdn.com/thumbor/C6_-SDnnoFdS19XRH4XvAYN1BT8=/148x0:1768x1080/1400x1400/filters:focal(148x0:1768x1080):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/49641465/tracer_overwatch.0.0.jpg"
-              }
+              cover={vitaeImg}
               logo={"https://d3fa68hw0m2vcc.cloudfront.net/bf4/156511609.jpeg"}
               title={
                 <>
@@ -162,7 +156,8 @@ export default function Projects() {
           </Grid>
           <Grid item>
             <ProjectCard
-              styles={styles2}
+              styles={useStyles({ color: "#5357ff" })}
+              // "#5357ce"
               brand={"League of Legends Official"}
               date={"02.04.2020"}
               cover={

@@ -1,16 +1,30 @@
-.repo-card-div {
+.projects-grid {
+  display: grid;
+  justify-items: center;
+  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  padding: 0 4em;
+}
+
+.project-card-div {
   background-color: #171c28;
   color: white;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   padding: 2rem;
   cursor: pointer;
 }
-.repo-card-div:hover {
-  background-color: #55198b !important;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
-}
 
-.repo-stats {
+.project-card-div:hover .project-name {
+  color: #00e1ff !important;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+  transform: scale(1.1);
+}
+/* .project-card-div:hover {
+  transform: scale(1.1);
+} */
+
+.project-stats {
   display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
@@ -18,25 +32,18 @@
   color: rgb(106, 115, 125);
 }
 
-.repo-left-stat {
+.project-left-tag {
   -webkit-box-flex: 1;
   flex-grow: 1;
   display: flex;
+  padding: 3px 6px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  border-spacing: 10px;
 }
 
-.language-color {
-  width: 10px;
-  height: 10px;
-  background-color: blue;
-  margin-right: 0.25rem;
-  border-radius: 100%;
-}
-
-.repo-left-stat span {
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  margin-right: 0.75rem;
+.project-left-icon {
+  margin-right: 6px;
 }
 
 .project-name-div {
@@ -45,10 +52,10 @@
 }
 
 .project-icon {
-  font: 24px;
+  margin-right: 6px;
 }
 
-.repo-svg {
+.project-svg {
   margin-right: 0.5rem;
   min-width: 16px;
 }
@@ -65,11 +72,11 @@
   margin: 0px 5px;
 }
 
-.repo-star-svg {
+.project-star-svg {
   margin-right: 0.3rem;
 }
 
-.repo-description {
+.project-description {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;

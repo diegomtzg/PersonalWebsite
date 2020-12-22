@@ -7,7 +7,6 @@ It just so happened that I was learning React right when I wanted to update my o
 - [React](https://github.com/facebook/react)
 - [tsParticles](https://github.com/matteobruni/tsparticles)
 - [fullPage](https://github.com/alvarotrigo/react-fullpage)
-- [Highlight Cards](https://mui-treasury.com/components/card/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

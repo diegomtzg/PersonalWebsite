@@ -4,7 +4,7 @@ a {
 
 .experience-card {
   position: relative;
-  background: rgba(11, 11, 11, 0.8);
+  background: rgba(0, 0, 0, 0.485);
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0);
   min-height: 540px;
@@ -12,7 +12,8 @@ a {
 
 .experience-card:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
-  border: 1px solid rgba(255, 255, 255, 1);
+  border: 1px solid #00e1ff;
+  /* transform: scale(1.05); */
 }
 
 .experience-banner {
@@ -20,11 +21,11 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 150%;
-  background: rgba(34, 34, 34, 0.74);
-  background-image: linear-gradient(
+  background: rgba(218, 218, 218, 0.562);
+  background: linear-gradient(
     109.6deg,
-    rgb(41, 68, 71) 16%,
-    rgb(226, 226, 226) 91.1%
+    rgba(41, 68, 71, 0.8) 16%,
+    rgba(226, 226, 226, 0.8) 91.1%
   );
   height: 10.5rem;
   display: flex;

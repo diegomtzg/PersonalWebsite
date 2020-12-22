@@ -38,7 +38,7 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <a
-                id="about-nav"
+                id="education-nav"
                 className="nav-link js-scroll"
                 href="#education"
               >

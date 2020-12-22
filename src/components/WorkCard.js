@@ -3,7 +3,6 @@ import "../static/css/WorkExperience.css";
 
 export default function ExperienceCard({ cardInfo }) {
   const GetDescBullets = ({ descBullets }) => {
-    console.log(descBullets);
     return descBullets
       ? descBullets.map((item) => <li className="">{item}</li>)
       : null;

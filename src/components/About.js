@@ -8,7 +8,7 @@ import profilePic from "../assets/images/memoji.png";
 
 export default function About() {
   return (
-    <div className="section home">
+    <div className="section about">
       <Grid container direction="row" alignItems="center" justify="flex-start">
         <Grid item xs={1} />
         <Grid item xs={10} md={6} align="center">

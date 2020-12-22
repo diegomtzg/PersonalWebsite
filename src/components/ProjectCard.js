@@ -1,18 +1,16 @@
 import React from "react";
-import "../static/css/Projects.css";
 import { Fade } from "react-reveal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCamera } from "@fortawesome/free-solid-svg-icons";
 
-export default function ProjectCard({ cardInfo }) {
+export default function ProjectCard({ projectInfo }) {
   return (
     <div>
       <div className="repo-card-div">
         <div className="project-name-div">
-          <FontAwesomeIcon icon={faCamera} size="lg" />
-          <p className="project-name">InFrame</p>
+          <FontAwesomeIcon icon={projectInfo.icon} size="lg" />
+          <p className="project-name">{projectInfo.name}</p>
         </div>
-        <p className="repo-description">desc</p>
+        <p className="repo-description">{projectInfo.desc}</p>
         <div className="repo-stats">
           <div className="repo-left-stat">
             <span>

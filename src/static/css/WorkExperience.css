@@ -8,7 +8,6 @@ a {
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0);
   min-height: 540px;
-  max-width: 500px;
 }
 
 .experience-card:hover {

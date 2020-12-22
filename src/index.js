@@ -21,12 +21,12 @@ function onLeave(origin, destination, direction) {
 // Option documentation at https://github.com/alvarotrigo/fullPage.js#options
 const Fullpage = () => (
   <ReactFullpage
-    anchors={["home", "about", "work", "projects", "skills"]}
+    anchors={["home", "about", "education", "work", "projects", "skills"]}
     recordHistory={false}
     onLeave={onLeave}
     fitToSection
     touchSensitivity={15}
-    fixedElements={[".particles", "#header", "#top-button"]}
+    fixedElements={[".particles", "#header"]}
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper>

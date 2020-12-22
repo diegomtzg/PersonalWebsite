@@ -32,11 +32,6 @@
   transition: width 0.6s ease-in-out;
 }
 
-.education-head {
-  display: flex;
-  flex-direction: row;
-}
-
 .education-text-school {
   margin: 0;
   font-size: 28px;
@@ -48,8 +43,8 @@
 
 .education-roundedimg {
   object-fit: cover;
-  width: 6.5rem !important;
-  height: 6.5rem !important;
+  width: 8rem !important;
+  height: 8rem !important;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
   border-radius: 50%;
 }
@@ -82,6 +77,7 @@
 
 .education-text-bullets > ul {
   margin-top: 0.5rem;
+  margin-bottom: 30px;
 }
 
 /* Media Query */

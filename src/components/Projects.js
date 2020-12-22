@@ -17,66 +17,70 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
   return (
     <div className="section projects">
-      <Grid container alignItems="space-evenly" spacing={3}>
-        <Grid container item justify="space-evenly">
-          <Grid item>
-            <ProjectCard
-              projectInfo={{
-                icon: faCamera,
-                name: "InFrame",
-                desc: "Description",
-              }}
-            />
-          </Grid>
-          <Grid item>
-            <ProjectCard
-              projectInfo={{
-                icon: faFileAlt,
-                name: "Vitae",
-                desc: "Description",
-              }}
-            />
-          </Grid>
-          <Grid item>
-            <ProjectCard
-              projectInfo={{
-                icon: faDiceD20,
-                name: "Scotty3D",
-                desc: "Description",
-              }}
-            />
-          </Grid>
-        </Grid>
-        <Grid container item justify="space-evenly">
-          <Grid item>
-            <ProjectCard
-              projectInfo={{
-                icon: faTabletAlt,
-                name: "MirrorX",
-                desc: "Description",
-              }}
-            />
-          </Grid>
-          <Grid item>
-            <ProjectCard
-              projectInfo={{
-                icon: faLaptopCode,
-                name: "ScreenBacklight",
-                desc: "Description",
-              }}
-            />
-          </Grid>
-          <Grid item>
-            <ProjectCard
-              projectInfo={{
-                icon: faHeartbeat,
-                name: "CDC WonderPy",
-                desc: "Description",
-              }}
-            />
-          </Grid>
-        </Grid>
-      </Grid>
+      <div className="projects-grid">
+        <ProjectCard
+          projectInfo={{
+            name: "InFrame",
+            link: "https://github.com/diegomtzg/InFrame",
+            icon: faCamera,
+            desc:
+              "Robotic camera that uses real-time object detection to track user-selected targets.",
+            descBullets: ["Bullet 1"],
+          }}
+        />
+
+        <ProjectCard
+          projectInfo={{
+            name: "Vitae",
+            link: "https://github.com/diegomtzg/Vitae",
+            icon: faFileAlt,
+            desc:
+              "Full stack web-application that lets users easily create beautiful online portfolios to showcase their professional experiences.",
+            descBullets: ["Bullet 1"],
+          }}
+        />
+
+        <ProjectCard
+          projectInfo={{
+            name: "Scotty3D",
+            link: "",
+            icon: faDiceD20,
+            desc:
+              "3D graphics software built from scratch: Features include: Interactive mesh editing, realistic path tracing and dynamic animation.",
+            descBullets: ["Bullet 1"],
+          }}
+        />
+
+        <ProjectCard
+          projectInfo={{
+            name: "MirrorX",
+            link: "",
+            icon: faTabletAlt,
+            desc: "Description",
+            descBullets: ["Bullet 1"],
+          }}
+        />
+
+        <ProjectCard
+          projectInfo={{
+            name: "ScreenBacklight",
+            link: "",
+            icon: faLaptopCode,
+            desc: "Description",
+            descBullets: ["Bullet 1"],
+          }}
+        />
+
+        <ProjectCard
+          projectInfo={{
+            name: "CDC WonderPy",
+            link: "",
+            icon: faHeartbeat,
+            desc: "Description",
+            descBullets: ["Bullet 1"],
+          }}
+        />
+      </div>
     </div>
   );
 }

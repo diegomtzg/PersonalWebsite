@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function ProjectCard({ projectInfo }) {
   return (
-    <div>
+    <a href={projectInfo.link} target="_blank" rel="noopener noreferrer">
       <div className="project-card-div">
         <div className="project-name-div">
           <p className="project-name">
@@ -31,6 +31,6 @@ export default function ProjectCard({ projectInfo }) {
           <div className="project-right-tag">diskUsage KB</div>
         </div>
       </div>
-    </div>
+    </a>
   );
 }

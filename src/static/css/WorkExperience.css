@@ -4,7 +4,7 @@ a {
 
 .experience-card {
   position: relative;
-  background: rgba(0, 0, 0, 0.485);
+  background: rgba(0, 0, 0, 0.63);
   border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0);
   min-height: 540px;
@@ -22,11 +22,7 @@ a {
   background-repeat: no-repeat;
   background-size: 150%;
   background: rgba(218, 218, 218, 0.562);
-  background: linear-gradient(
-    109.6deg,
-    rgba(41, 68, 71, 0.8) 16%,
-    rgba(226, 226, 226, 0.8) 91.1%
-  );
+  background: linear-gradient(#00e1ff -20%, #00000000 91.1%);
   height: 10.5rem;
   display: flex;
   align-items: flex-end;

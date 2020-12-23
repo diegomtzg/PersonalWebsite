@@ -21,7 +21,15 @@ function onLeave(origin, destination, direction) {
 // Option documentation at https://github.com/alvarotrigo/fullPage.js#options
 const Fullpage = () => (
   <ReactFullpage
-    anchors={["home", "about", "education", "work", "projects", "skills"]}
+    anchors={[
+      "home",
+      "about",
+      "education",
+      "work",
+      "projects",
+      "skills",
+      "footer",
+    ]}
     recordHistory={false}
     onLeave={onLeave}
     fitToSection

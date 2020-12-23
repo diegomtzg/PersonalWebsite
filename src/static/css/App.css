@@ -167,3 +167,55 @@
     transform: rotate(0deg);
   }
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.318);
+  color: white;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100vw;
+  position: relative;
+  bottom: 0;
+}
+
+.social-media-div {
+  margin: 1em 0px;
+}
+
+.footer-text {
+  align-items: bottom;
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.icon-button {
+  color: white;
+  font-size: 2.5rem;
+  margin: 0 20px;
+  position: relative;
+  text-align: center;
+  width: 2.6rem;
+  margin-bottom: 10px;
+}
+
+.mail:hover {
+  color: rgb(44, 160, 9);
+}
+
+.github:hover {
+  color: black;
+}
+
+.linkedin:hover {
+  color: #0e76a8;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  .social-media-div {
+    text-align: center;
+  }
+}

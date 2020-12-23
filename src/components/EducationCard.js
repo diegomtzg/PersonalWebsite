@@ -8,7 +8,13 @@ import "../static/css/Education.css";
 export default function EducationCard({ schoolInfo }) {
   const GetDescBullets = ({ descBullets }) => {
     return descBullets
-      ? descBullets.map((item) => <li className="subTitle">{item}</li>)
+      ? descBullets.map((item) => (
+          <li className="subTitle">
+            <Typography component="p" variant="p">
+              {item}
+            </Typography>
+          </li>
+        ))
       : null;
   };
 
@@ -23,12 +29,28 @@ export default function EducationCard({ schoolInfo }) {
           />
         </div>
         <div className="education-card-right">
-          <h5 className="education-text-school">{schoolInfo.name}</h5>
+          <Typography component="h4" variant="h4">
+            <strong>{schoolInfo.name}</strong>
+          </Typography>
 
           <div className="education-text-details">
-            <h5 className="education-text-subHeader">{schoolInfo.degree}</h5>
-            <p className="education-text-duration">{schoolInfo.dates}</p>
-            <p className="education-text-desc">{schoolInfo.bulletsTitle}</p>
+            <Typography component="h5" variant="h5">
+              {schoolInfo.degree}
+            </Typography>
+            <Typography
+              className="education-bullets-title"
+              component="p"
+              variant="p"
+            >
+              <strong>{schoolInfo.dates}</strong>
+            </Typography>
+            <Typography
+              className="education-bullets-title"
+              component="p"
+              variant="p"
+            >
+              {schoolInfo.bulletsTitle}
+            </Typography>
             <div className="education-text-bullets">
               <ul>
                 <GetDescBullets descBullets={schoolInfo.bullets} />

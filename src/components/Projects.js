@@ -50,7 +50,7 @@ export default function Projects() {
             icon: faDiceD20,
             desc:
               "3D graphics software built from scratch: Features include: Interactive mesh editing, realistic path tracing and dynamic animation.",
-            skills: ["Computer Vision", "Somethin"],
+            skills: ["Graphics"],
           }}
         />
 
@@ -61,7 +61,7 @@ export default function Projects() {
             icon: faHeartbeat,
             desc:
               "An API wrapper designed to improve access to the CDC's WONDER database.",
-            skills: ["Computer Vision", "Somethin"],
+            skills: ["SW Design"],
           }}
         />
 
@@ -72,7 +72,7 @@ export default function Projects() {
             icon: faTabletAlt,
             desc:
               "Smart mirror with facial recognition login that pulls daily info from various public APIs.",
-            skills: ["Computer Vision", "Somethin"],
+            skills: ["Computer Vision", "SW Design"],
           }}
         />
 
@@ -83,7 +83,7 @@ export default function Projects() {
             icon: faLaptopCode,
             desc:
               "Ambient lighting system to enhance movie viewing and music listening experience.",
-            skills: ["Computer Vision", "Somethin"],
+            skills: ["Embedded Systems", "SW Design"],
           }}
         />
       </div>

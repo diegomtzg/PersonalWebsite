@@ -1,7 +1,7 @@
 const particleParams = {
   background: {
     color: {
-      value: "#0a0a0a",
+      value: "#0f0f0f",
     },
   },
   particles: {
@@ -87,7 +87,7 @@ const particleParams = {
       grab: {
         distance: 150,
         line_linked: {
-          opacity: 1,
+          opacity: 0.8,
         },
       },
       push: {

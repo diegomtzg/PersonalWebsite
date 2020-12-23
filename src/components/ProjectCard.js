@@ -3,8 +3,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEye,
   faRobot,
+  faShapes,
   faLaptopCode,
   faHeartbeat,
+  faDraftingCompass,
+  faPlug,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function ProjectCard({ projectInfo }) {
@@ -15,16 +18,29 @@ export default function ProjectCard({ projectInfo }) {
         switch (skill) {
           case "Computer Vision":
             icon = faEye;
-            color = "#00e1ff";
+            color = "deepskyblue";
             break;
           case "Robotics":
             icon = faRobot;
-            color = "red";
+            color = "darkred";
             break;
           case "Web Dev":
             icon = faLaptopCode;
-            color = "purple";
+            color = "mediumorchid";
             break;
+          case "Graphics":
+            icon = faShapes;
+            color = "chocolate";
+            break;
+          case "SW Design":
+            icon = faDraftingCompass;
+            color = "greenyellow";
+            break;
+          case "Embedded Systems":
+            icon = faPlug;
+            color = "saddlebrown";
+            break;
+
           default:
             icon = faHeartbeat;
             color = "gray";

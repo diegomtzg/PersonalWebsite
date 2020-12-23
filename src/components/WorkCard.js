@@ -1,4 +1,5 @@
 import React from "react";
+import Typography from "@material-ui/core/Typography";
 import "../static/css/WorkExperience.css";
 
 export default function ExperienceCard({ cardInfo }) {
@@ -14,7 +15,15 @@ export default function ExperienceCard({ cardInfo }) {
         <div className="experience-banner">
           <div className="experience-blurred_div"></div>
           <div className="experience-div-company">
-            <h5 className="experience-text-company">{cardInfo.company}</h5>
+            <h5 className="experience-text-company">
+              <Typography
+                className="section-heading"
+                component="h5"
+                variant="h5"
+              >
+                <strong>{cardInfo.company}</strong>
+              </Typography>
+            </h5>
           </div>
           <img
             className="experience-roundedimg"

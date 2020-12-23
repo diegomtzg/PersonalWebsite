@@ -5,9 +5,8 @@ a {
 .experience-card {
   position: relative;
   background: rgba(0, 0, 0, 0.63);
-  border-radius: 10px;
   border: 1px solid rgba(211, 211, 211, 0);
-  min-height: 540px;
+  min-height: 560px;
 }
 
 .experience-card:hover {
@@ -16,12 +15,12 @@ a {
   transform: scale(1.05);
 }
 
-.experience-card:hover .experience-banner {
-  background: linear-gradient(#00e1ff 0%, #00000000 65%);
+.experience-card:hover .experience-text-company {
+  /* background: linear-gradient(#00e1ff 0%, #00000000 65%); */
+  color: #00e1ff;
 }
 
 .experience-banner {
-  border-radius: 10px 10px 0px 0px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 150%;
@@ -30,7 +29,7 @@ a {
     rgb(41, 68, 71) 16%,
     rgb(226, 226, 226) 91.1%
   ); */
-  background: linear-gradient(#00e1ffa6 0%, #00000000 100%);
+  /* background: linear-gradient(#00e1ffa6 0%, #00000000 100%); */
   height: 10.5rem;
   display: flex;
   align-items: flex-end;
@@ -40,7 +39,7 @@ a {
 .experience-div-company {
   position: absolute;
   background: transparent;
-  height: 9rem;
+  height: 7.5rem;
   top: 0;
   left: 0;
   width: 100%;
@@ -53,7 +52,8 @@ a {
   text-align: center;
   padding: 1.5rem;
   margin: 0;
-  color: #fff;
+  /* color: #00e1ff; */
+  color: white;
   font-size: 25px;
   text-align: center;
   font-weight: 700;
@@ -83,7 +83,7 @@ a {
   font-weight: 700;
   font-size: 25px;
   margin: 0px;
-  padding-top: 1.5rem;
+  padding-top: 2rem;
   line-height: normal;
 }
 .experience-text-date {

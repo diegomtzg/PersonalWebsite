@@ -51,7 +51,7 @@ const particleParams = {
     line_linked: {
       enable: true,
       distance: 150,
-      color: "#ffffff",
+      color: "#afafaf",
       opacity: 0.4,
       width: 0.5,
     },

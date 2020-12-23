@@ -1,12 +1,12 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import Typography from "@material-ui/core/Typography";
-import WorkCard from "./WorkCard";
-
+import WorkCard from "./cards/WorkCard";
 import xLogo from "../assets/images/X.png";
 import googleLogo from "../assets/images/Google.png";
 import microsoftLogo from "../assets/images/Microsoft.png";
 import cmuLogo from "../assets/images/CMU_Red.png";
+import "../static/css/Work.css";
 
 export default function Work() {
   return (

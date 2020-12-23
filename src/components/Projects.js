@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../static/css/Projects.css";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "./cards/ProjectCard";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Projects() {

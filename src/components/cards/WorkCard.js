@@ -1,6 +1,5 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import "../static/css/WorkExperience.css";
 
 export default function ExperienceCard({ cardInfo }) {
   const GetDescBullets = ({ descBullets }) => {

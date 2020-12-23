@@ -4,7 +4,7 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { Fade, Slide, Zoom } from "react-reveal";
 import cmuLogo from "../assets/images/CMU.png";
-import EducationCard from "./EducationCard";
+import EducationCard from "./cards/EducationCard";
 import "../static/css/Education.css";
 
 export default function Education() {

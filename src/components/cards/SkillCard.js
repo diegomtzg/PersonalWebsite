@@ -1,20 +1,56 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircle } from "@fortawesome/free-solid-svg-icons";
+// import { faCircle } from "@fortawesome/free-regular-svg-icons";
 
 export default function SkillCard({ skillInfo }) {
+  const GetProficiencyWithColor = ({ proficiency }) => {
+    var color;
+    switch (proficiency) {
+      case "Advanced":
+        // color = "chocolate";
+        color = "royalblue";
+        break;
+      case "Intermediate":
+        // color = "peru";
+        color = "skyblue";
+        break;
+      case "Beginner":
+        color = "paleturquoise";
+        // color = "burlywood";
+        break;
+      default:
+        color = "gray";
+        break;
+    }
+    return (
+      <p className="skill-proficiency" style={{ color: color }}>
+        Experience: {proficiency}
+      </p>
+    );
+  };
+
   return (
-    <div className="project-card-div">
-      <div className="project-name-div">
-        <p className="project-name">
+    <div className="skill-card-div">
+      <div className="skill-left">
+        <span className="fa-stack fa-3x">
           <FontAwesomeIcon
-            className="project-icon"
-            icon={skillInfo.icon}
-            size="md"
+            className="fa-stack-2x"
+            icon={faCircle}
+            color="#3f3f3f8a"
           />
-          {skillInfo.name}
-        </p>
+          <FontAwesomeIcon
+            className="fa-stack-1x"
+            icon={skillInfo.icon}
+            color="white"
+          />
+        </span>
       </div>
-      <p className="project-description">{skillInfo.desc}</p>
+      <div className="skill-right">
+        <p className="skill-name">{skillInfo.name}</p>
+        <GetProficiencyWithColor proficiency={skillInfo.proficiency} />
+        <p className="skill-details">{skillInfo.details}</p>
+      </div>
     </div>
   );
 }

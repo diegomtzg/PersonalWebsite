@@ -1,66 +1,43 @@
-.projects-grid {
+.skills-grid {
   display: grid;
-  justify-items: stretch;
-  grid-gap: 2em;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  justify-items: center;
+  column-gap: 2em;
+  row-gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
   grid-template-rows: auto;
   padding: 0 10em;
 }
 
-.project-card-div {
+.skill-card-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
   background-color: rgba(0, 0, 0, 0.753);
   color: white;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
-  padding: 2rem;
-  cursor: pointer;
 }
 
-.project-card-div:hover {
+.skill-card-div:hover {
   transform: scale(1.08);
   border: 2px solid #00e1ff;
 }
 
-.project-card-div:hover .project-name {
+.skill-card-div:hover .skill-name {
   color: #00e1ff !important;
   transform: scale(1.1);
 }
 
-.project-stats {
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  font-size: 13px;
-  color: rgb(106, 115, 125);
+.skill-left {
 }
 
-.project-left-stat {
-  display: flex;
-  flex-direction: row;
+.skill-right {
+  padding: 1em 0;
+  padding-right: 2em;
+  text-align: center;
 }
 
-.project-left-tag {
-  display: flex;
-  flex-direction: row !important;
-  padding: 4px 6px;
-  margin-right: 10px;
-  border: 2px solid gray;
-  border-radius: 10px;
-}
-
-.project-left-icon {
-  margin-right: 6px;
-}
-
-.project-name-div {
-  display: flex;
-  align-items: center;
-}
-
-.project-icon {
-  margin-right: 6px;
-}
-
-.project-name {
+.skill-name {
   white-space: nowrap;
   text-overflow: ellipsis;
   color: rgb(255, 255, 255);
@@ -69,35 +46,14 @@
   font-weight: 700;
   letter-spacing: -0.5px;
   overflow: hidden;
-  margin: 0px 5px;
+  margin: 0px 20px;
 }
 
-.project-description {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
+.skill-proficiency {
+  margin-bottom: 0.5em;
 }
 
-.more-projects {
-  margin-top: 2.5em;
-  display: flex;
-  justify-content: center;
-}
-
-.more-projects button {
-  background-color: rgba(0, 0, 0, 0.753);
-  color: white;
-  padding: 0.3em 1em;
-  font-size: 1.2em;
-}
-
-.more-projects button:hover {
-  background-color: #00e1ff;
-  color: black;
-}
-
-.more-icon {
-  font-size: 1.2em;
-  margin-right: 0.5em;
+.skill-details {
+  margin: auto;
+  width: 85%;
 }

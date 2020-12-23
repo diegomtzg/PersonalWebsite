@@ -5,7 +5,6 @@ import Typography from "@material-ui/core/Typography";
 import {
   faCamera,
   faFileAlt,
-  faShapes,
   faTabletAlt,
   faDiceD20,
   faLaptopCode,

@@ -5,6 +5,7 @@ import Hidden from "@material-ui/core/Hidden";
 import emoji from "react-easy-emoji";
 import Fade from "react-reveal/Fade";
 import profilePic from "../assets/images/memoji.png";
+import Socials from "./Socials";
 
 export default function About() {
   return (
@@ -21,6 +22,7 @@ export default function About() {
               I’m a software engineer with a passion for finding ways to
               integrate technology into society and a firm believer in its
               ability to enhance human experiences.
+              <Socials noLeft />
             </Typography>
           </Fade>
         </Grid>

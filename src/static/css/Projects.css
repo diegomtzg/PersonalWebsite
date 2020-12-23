@@ -1,6 +1,6 @@
 .projects-grid {
   display: grid;
-  justify-items: center;
+  justify-items: stretch;
   grid-gap: 2em;
   grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
   grid-template-rows: auto;

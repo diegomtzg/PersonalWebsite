@@ -16,13 +16,17 @@ a {
   transform: scale(1.05);
 }
 
+.experience-card:hover .experience-banner {
+  background: linear-gradient(#00e1ff 0%, #00000000 95%);
+}
+
 .experience-banner {
   border-radius: 10px 10px 0px 0px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 150%;
-  background: rgba(218, 218, 218, 0.562);
-  background: linear-gradient(#00e1ff 0%, #00000000 95%);
+  background: linear-gradient(#00e1ffa6 0%, #00000000 70%);
+
   height: 10.5rem;
   display: flex;
   align-items: flex-end;
@@ -42,7 +46,6 @@ a {
 }
 
 .experience-text-company {
-  color: white !important;
   text-align: center;
   padding: 1.5rem;
   margin: 0;
@@ -139,7 +142,6 @@ a {
   }
 }
 
-/**/
 .experience-cards-div {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));

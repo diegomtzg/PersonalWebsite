@@ -201,16 +201,20 @@
   margin-bottom: 10px;
 }
 
+.first {
+  margin-left: 0 !important;
+}
+
 .mail:hover {
-  color: rgb(44, 160, 9);
+  color: #00e1ff;
 }
 
 .github:hover {
-  color: black;
+  color: #00e1ff;
 }
 
 .linkedin:hover {
-  color: #0e76a8;
+  color: #00e1ff;
 }
 
 /* Media Query */

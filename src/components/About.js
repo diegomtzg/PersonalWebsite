@@ -2,12 +2,23 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import Hidden from "@material-ui/core/Hidden";
+import Avatar from "@material-ui/core/Avatar";
 import emoji from "react-easy-emoji";
 import Fade from "react-reveal/Fade";
-import profilePic from "../assets/images/memoji.png";
+import profilePic from "../assets/images/AboutPic.jpg";
 import Socials from "./Socials";
+import { makeStyles } from "@material-ui/core/styles";
+
+const useStyles = makeStyles((theme) => ({
+  large: {
+    width: theme.spacing(40),
+    height: theme.spacing(40),
+  },
+}));
 
 export default function About() {
+  const classes = useStyles();
+
   return (
     <div className="section about">
       <Grid container direction="row" alignItems="center" justify="flex-start">
@@ -30,11 +41,11 @@ export default function About() {
         <Hidden smDown>
           <Grid item md={4} align="center">
             <Fade right>
-              <img
-                className="about-picture"
+              <Avatar
+                className={classes.large}
                 src={profilePic}
                 alt="Diego Martinez"
-              ></img>
+              />
             </Fade>
           </Grid>
         </Hidden>

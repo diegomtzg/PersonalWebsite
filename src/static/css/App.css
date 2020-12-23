@@ -36,11 +36,6 @@
   padding: 0.5em 1em;
 }
 
-.about-picture {
-  width: 30em;
-  height: auto;
-}
-
 /* Page Nav Dots */
 #fp-nav ul li a span {
   background-color: #00e1ff;

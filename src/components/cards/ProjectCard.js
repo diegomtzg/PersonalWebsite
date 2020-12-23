@@ -47,7 +47,7 @@ export default function ProjectCard({ projectInfo }) {
             break;
         }
         return (
-          <div className="project-left-tag">
+          <div key={skill} className="project-left-tag">
             <FontAwesomeIcon
               className="project-left-icon"
               icon={icon}
@@ -69,7 +69,7 @@ export default function ProjectCard({ projectInfo }) {
             <FontAwesomeIcon
               className="project-icon"
               icon={projectInfo.icon}
-              size="md"
+              size="1x"
             />
             {projectInfo.name}
           </p>

@@ -1,5 +1,4 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
 import Typography from "@material-ui/core/Typography";
 import WorkCard from "./cards/WorkCard";
 import xLogo from "../assets/images/X.png";

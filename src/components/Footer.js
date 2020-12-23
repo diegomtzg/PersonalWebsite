@@ -1,9 +1,5 @@
 import React from "react";
-import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Socials from "./Socials";
 
 export default function Footer() {

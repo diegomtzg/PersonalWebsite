@@ -4,7 +4,11 @@ import Typography from "@material-ui/core/Typography";
 export default function ExperienceCard({ cardInfo }) {
   const GetDescBullets = ({ descBullets }) => {
     return descBullets
-      ? descBullets.map((item) => <li className="">{item}</li>)
+      ? descBullets.map((item) => (
+          <li key={item} className="">
+            {item}
+          </li>
+        ))
       : null;
   };
 
@@ -14,15 +18,13 @@ export default function ExperienceCard({ cardInfo }) {
         <div className="experience-banner">
           <div className="experience-blurred_div"></div>
           <div className="experience-div-company">
-            <h5 className="experience-text-company">
-              <Typography
-                className="section-heading"
-                component="h5"
-                variant="h5"
-              >
-                <strong>{cardInfo.company}</strong>
-              </Typography>
-            </h5>
+            <Typography
+              className="section-heading experience-text-company"
+              component="h5"
+              variant="h5"
+            >
+              <strong>{cardInfo.company}</strong>
+            </Typography>
           </div>
           <img
             className="experience-roundedimg"

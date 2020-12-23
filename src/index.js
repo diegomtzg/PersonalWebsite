@@ -13,7 +13,7 @@ import theme from "./static/const/theme";
 import reportWebVitals from "./reportWebVitals";
 
 function onLeave(origin, destination, direction) {
-  console.log(origin.anchor, destination.anchor);
+  // console.log(origin.anchor, destination.anchor);
   $("#" + origin.anchor + "-nav").removeClass("active");
   $("#" + destination.anchor + "-nav").addClass("active");
 }
@@ -30,6 +30,7 @@ const Fullpage = () => (
       "skills",
       "footer",
     ]}
+    licenseKey={process.env.REACT_APP_FULLPAGE_KEY}
     recordHistory={false}
     onLeave={onLeave}
     fitToSection
@@ -53,11 +54,11 @@ const Fullpage = () => (
 );
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.Fragment>
     <ThemeProvider theme={theme}>
       <Fullpage />
     </ThemeProvider>
-  </React.StrictMode>,
+  </React.Fragment>,
   document.getElementById("root")
 );
 

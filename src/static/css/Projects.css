@@ -16,7 +16,7 @@
 }
 
 .project-card-div:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
   border: 2px solid #00e1ff;
 }
 
@@ -33,14 +33,18 @@
   color: rgb(106, 115, 125);
 }
 
-.project-left-tag {
-  -webkit-box-flex: 1;
-  flex-grow: 1;
+.project-left-stat {
   display: flex;
-  padding: 3px 6px;
+  flex-direction: row;
+}
+
+.project-left-tag {
+  display: flex;
+  flex-direction: row !important;
+  padding: 4px 6px;
+  margin-right: 10px;
   border: 2px solid gray;
   border-radius: 10px;
-  border-spacing: 10px;
 }
 
 .project-left-icon {

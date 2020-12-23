@@ -26,11 +26,9 @@ export default function Projects() {
             name: "InFrame",
             link: "https://github.com/diegomtzg/InFrame",
             icon: faCamera,
-            skillIcon: faCamera,
-            skillColor: "red",
             desc:
               "Robotic camera that uses real-time object detection to track user-selected targets.",
-            descBullets: ["Bullet 1"],
+            skills: ["Computer Vision", "Robotics"],
           }}
         />
 
@@ -41,7 +39,7 @@ export default function Projects() {
             icon: faFileAlt,
             desc:
               "Full stack web-application that lets users easily create beautiful online portfolios to showcase their professional experiences.",
-            descBullets: ["Bullet 1"],
+            skills: ["Web Dev"],
           }}
         />
 
@@ -52,29 +50,7 @@ export default function Projects() {
             icon: faDiceD20,
             desc:
               "3D graphics software built from scratch: Features include: Interactive mesh editing, realistic path tracing and dynamic animation.",
-            descBullets: ["Bullet 1"],
-          }}
-        />
-
-        <ProjectCard
-          projectInfo={{
-            name: "MirrorX",
-            link: "https://github.com/diegomtzg/MirrorX",
-            icon: faTabletAlt,
-            desc:
-              "Smart mirror with facial recognition login that pulls daily info from various public APIs.",
-            descBullets: ["Bullet 1"],
-          }}
-        />
-
-        <ProjectCard
-          projectInfo={{
-            name: "ScreenBacklight",
-            link: "https://github.com/diegomtzg/ScreenBacklight",
-            icon: faLaptopCode,
-            desc:
-              "Ambient lighting system to enhance movie viewing and music listening experience.",
-            descBullets: ["Bullet 1"],
+            skills: ["Computer Vision", "Somethin"],
           }}
         />
 
@@ -85,7 +61,29 @@ export default function Projects() {
             icon: faHeartbeat,
             desc:
               "An API wrapper designed to improve access to the CDC's WONDER database.",
-            descBullets: ["Bullet 1"],
+            skills: ["Computer Vision", "Somethin"],
+          }}
+        />
+
+        <ProjectCard
+          projectInfo={{
+            name: "MirrorX",
+            link: "https://github.com/diegomtzg/MirrorX",
+            icon: faTabletAlt,
+            desc:
+              "Smart mirror with facial recognition login that pulls daily info from various public APIs.",
+            skills: ["Computer Vision", "Somethin"],
+          }}
+        />
+
+        <ProjectCard
+          projectInfo={{
+            name: "ScreenBacklight",
+            link: "https://github.com/diegomtzg/ScreenBacklight",
+            icon: faLaptopCode,
+            desc:
+              "Ambient lighting system to enhance movie viewing and music listening experience.",
+            skills: ["Computer Vision", "Somethin"],
           }}
         />
       </div>

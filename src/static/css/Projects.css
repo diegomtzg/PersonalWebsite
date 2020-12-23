@@ -56,11 +56,6 @@
   margin-right: 6px;
 }
 
-.project-svg {
-  margin-right: 0.5rem;
-  min-width: 16px;
-}
-
 .project-name {
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -73,13 +68,32 @@
   margin: 0px 5px;
 }
 
-.project-star-svg {
-  margin-right: 0.3rem;
-}
-
 .project-description {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+}
+
+.more-projects {
+  margin-top: 2.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.more-projects button {
+  background-color: rgba(0, 0, 0, 0.753);
+  color: white;
+  padding: 0.3em 1em;
+  font-size: 1.2em;
+}
+
+.more-projects button:hover {
+  background-color: #00e1ff;
+  color: black;
+}
+
+.more-icon {
+  font-size: 1.2em;
+  margin-right: 0.5em;
 }

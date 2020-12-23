@@ -1,5 +1,4 @@
 import React from "react";
-import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import {
@@ -10,8 +9,10 @@ import {
   faLaptopCode,
   faHeartbeat,
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../static/css/Projects.css";
 import ProjectCard from "./ProjectCard";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Projects() {
   return (
@@ -87,6 +88,18 @@ export default function Projects() {
             descBullets: ["Bullet 1"],
           }}
         />
+      </div>
+      <div className="more-projects">
+        <a
+          href="https://github.com/diegomtzg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button>
+            <FontAwesomeIcon className="more-icon" icon={faGithub} />
+            View More Projects
+          </Button>
+        </a>
       </div>
     </div>
   );

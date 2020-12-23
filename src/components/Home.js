@@ -9,16 +9,15 @@ export default function Home() {
       <Grid container spacing={1}>
         <Grid item xs={12} align="center">
           <Typography variant="h2">Diego Martinez</Typography>
-          <Typography variant="h3" className="typewriter">
+          <Typography variant="h3">
             <Typed
               strings={[
-                "Software Engineer",
                 "Masters in ECE at Carnegie Mellon",
+                "Software Engineer",
                 "Technology Optimist",
-                "Full Stack Developer",
               ]}
-              typeSpeed={70}
-              backDelay={1500}
+              typeSpeed={50}
+              backDelay={1000}
               backSpeed={40}
               loop
             />

@@ -2,7 +2,7 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
-import { Fade, Slide, Zoom } from "react-reveal";
+import Slide from "react-reveal/Slide";
 import cmuLogo from "../assets/images/CMU.png";
 import EducationCard from "./cards/EducationCard";
 import "../static/css/Education.css";
@@ -14,7 +14,7 @@ export default function Education() {
         Education
       </Typography>
       <div className="education-card-container">
-        <Fade left duration={1000}>
+        <Slide left duration={1200}>
           <EducationCard
             schoolInfo={{
               name: "Carnegie Mellon University",
@@ -29,6 +29,8 @@ export default function Education() {
               ],
             }}
           />
+        </Slide>
+        <Slide right duration={1200}>
           <EducationCard
             schoolInfo={{
               name: "Carnegie Mellon University",
@@ -39,7 +41,7 @@ export default function Education() {
               bulletsTitle: "Software Track | Graduated with University Honors",
             }}
           />
-        </Fade>
+        </Slide>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ import {
   faLaptopCode,
   faHeartbeat,
   faDraftingCompass,
-  faPlug,
+  faMemory,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function ProjectCard({ projectInfo }) {
@@ -30,15 +30,15 @@ export default function ProjectCard({ projectInfo }) {
             break;
           case "Graphics":
             icon = faShapes;
-            color = "chocolate";
+            color = "orangered";
             break;
           case "SW Design":
             icon = faDraftingCompass;
-            color = "greenyellow";
+            color = "lawngreen";
             break;
           case "Embedded Systems":
-            icon = faPlug;
-            color = "saddlebrown";
+            icon = faMemory;
+            color = "gold";
             break;
 
           default:

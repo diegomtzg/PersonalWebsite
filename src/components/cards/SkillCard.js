@@ -9,11 +9,11 @@ export default function SkillCard({ skillInfo }) {
     switch (proficiency) {
       case "Advanced":
         // color = "chocolate";
-        color = "royalblue";
+        color = "dodgerblue";
         break;
       case "Intermediate":
         // color = "peru";
-        color = "skyblue";
+        color = "peachpuff";
         break;
       case "Beginner":
         color = "paleturquoise";
@@ -42,7 +42,7 @@ export default function SkillCard({ skillInfo }) {
           <FontAwesomeIcon
             className="fa-stack-1x"
             icon={skillInfo.icon}
-            color="white"
+            color={skillInfo.color}
           />
         </span>
       </div>

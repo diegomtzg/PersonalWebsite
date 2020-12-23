@@ -5,7 +5,7 @@ import Hidden from "@material-ui/core/Hidden";
 import Avatar from "@material-ui/core/Avatar";
 import emoji from "react-easy-emoji";
 import Fade from "react-reveal/Fade";
-import profilePic from "../assets/images/AboutPic.jpg";
+import profilePic from "../assets/images/AboutPic.png";
 import Socials from "./Socials";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -42,7 +42,7 @@ export default function About() {
           <Grid item md={4} align="center">
             <Fade right>
               <Avatar
-                className={classes.large}
+                className={classes.large + " about-avatar"}
                 src={profilePic}
                 alt="Diego Martinez"
               />

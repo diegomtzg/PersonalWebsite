@@ -24,26 +24,19 @@ export default function Skills() {
             name: "Software Engineering",
             proficiency: "Advanced",
             icon: faCogs,
+            color: "#fff",
             details:
               "API Design, Object-Oriented Design, Human-centered Software, Cloud Computing",
           }}
         />
         <SkillCard
           skillInfo={{
-            name: "Web Development",
-            proficiency: "Intermediate",
-            icon: faLaptopCode,
+            name: "Computer Systems",
+            proficiency: "Advanced",
+            icon: faMemory,
+            color: "#bd8b04",
             details:
-              "HTML5, CSS3, Javascript, Bootstrap, jQuery, AJAX, React, Django, NodeJS",
-          }}
-        />
-        <SkillCard
-          skillInfo={{
-            name: "Deep Learning",
-            proficiency: "Intermediate",
-            icon: faBrain,
-            details:
-              "Computer Vision, Machine Learning, Generative Models, Image Synthesis",
+              "Network Protocols, Distributed Systems, Real-Time Kernels, Drivers, ARM Assembly",
           }}
         />
         <SkillCard
@@ -51,17 +44,29 @@ export default function Skills() {
             name: "Computer Graphics",
             proficiency: "Intermediate",
             icon: faDiceD20,
+            color: "#ff7b00",
             details:
               "Photorealistic Rendering, Subdivision Modeling, Animation, OpenGL",
           }}
         />
         <SkillCard
           skillInfo={{
-            name: "Computer Systems",
+            name: "Deep Learning",
             proficiency: "Intermediate",
-            icon: faMemory,
+            icon: faBrain,
+            color: "#ff0044",
             details:
-              "Network Protocols, Distributed Systems, Real-Time Kernels, Drivers, ARM Assembly",
+              "Computer Vision, Machine Learning, Generative Models, Image Synthesis",
+          }}
+        />
+        <SkillCard
+          skillInfo={{
+            name: "Web Development",
+            proficiency: "Advanced",
+            icon: faLaptopCode,
+            color: "#aa00ff",
+            details:
+              "HTML5, CSS3, Javascript, Bootstrap, jQuery, AJAX, React, Django, NodeJS",
           }}
         />
         <SkillCard
@@ -69,6 +74,7 @@ export default function Skills() {
             name: "Other Technologies",
             proficiency: "Advanced",
             icon: faToolbox,
+            color: "#04d12d",
             details:
               "C/C++, Python, Java, Golang, Bash, SQL, Git, OpenCV, MATLAB, Arduino",
           }}

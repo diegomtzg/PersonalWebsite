@@ -25,7 +25,7 @@ export default function About() {
         <Grid item xs={1} />
         <Grid item xs={10} md={6} align="center">
           {/* https://www.react-reveal.com/docs/props/ */}
-          <Fade left delay={500}>
+          <Fade left duration={500}>
             <Typography variant="h2" align="left">
               Hi! I'm Diego <span className="wave-emoji">{emoji("👋🏼")}</span>
             </Typography>

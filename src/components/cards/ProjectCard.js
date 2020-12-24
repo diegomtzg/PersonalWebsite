@@ -9,6 +9,7 @@ import {
   faDraftingCompass,
   faMemory,
 } from "@fortawesome/free-solid-svg-icons";
+import ReactGA from "react-ga";
 
 export default function ProjectCard({ projectInfo }) {
   const GetSkills = ({ skills }) => {
@@ -62,7 +63,12 @@ export default function ProjectCard({ projectInfo }) {
   };
 
   return (
-    <a href={projectInfo.link} target="_blank" rel="noopener noreferrer">
+    <ReactGA.OutboundLink
+      eventLabel={"Project: " + projectInfo.name}
+      to={projectInfo.link}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <div className="project-card-div">
         <div className="project-name-div">
           <p className="project-name">
@@ -82,6 +88,6 @@ export default function ProjectCard({ projectInfo }) {
           <div className="project-right-tag">{projectInfo.date}</div>
         </div>
       </div>
-    </a>
+    </ReactGA.OutboundLink>
   );
 }

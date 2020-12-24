@@ -1,5 +1,6 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
+import ReactGA from "react-ga";
 
 export default function ExperienceCard({ cardInfo }) {
   const GetDescBullets = ({ descBullets }) => {
@@ -13,7 +14,12 @@ export default function ExperienceCard({ cardInfo }) {
   };
 
   return (
-    <a href={cardInfo.companyLink} target="_blank" rel="noopener noreferrer">
+    <ReactGA.OutboundLink
+      eventLabel={"Work: " + cardInfo.company + " - " + cardInfo.role}
+      to={cardInfo.companyLink}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <div className="experience-card">
         <div className="experience-banner">
           <div className="experience-blurred_div"></div>
@@ -41,6 +47,6 @@ export default function ExperienceCard({ cardInfo }) {
           </ul>
         </div>
       </div>
-    </a>
+    </ReactGA.OutboundLink>
   );
 }

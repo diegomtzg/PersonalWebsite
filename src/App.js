@@ -1,4 +1,5 @@
 import { React, useEffect } from "react";
+import ReactGA from "react-ga";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -10,6 +11,9 @@ import Footer from "./components/Footer";
 
 export default function App(props) {
   useEffect(() => {
+    ReactGA.initialize(process.env.REACT_APP_GA_KEY);
+    ReactGA.pageview("/");
+
     console.info(
       `                                        
   ██████╗ ███╗   ███╗

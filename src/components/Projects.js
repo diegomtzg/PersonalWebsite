@@ -13,6 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../static/css/Projects.css";
 import ProjectCard from "./cards/ProjectCard";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import ReactGA from "react-ga";
 
 export default function Projects() {
   return (
@@ -88,16 +89,18 @@ export default function Projects() {
         />
       </div>
       <div className="more-projects">
-        <a
-          href="https://github.com/diegomtzg"
+        <ReactGA.OutboundLink
+          eventLabel="Socials: Github [from Projects]"
+          to="https://github.com/diegomtzg"
           target="_blank"
           rel="noopener noreferrer"
+          className="icon-button github"
         >
           <Button>
             <FontAwesomeIcon className="more-icon" icon={faGithub} />
             View More Projects
           </Button>
-        </a>
+        </ReactGA.OutboundLink>
       </div>
     </div>
   );

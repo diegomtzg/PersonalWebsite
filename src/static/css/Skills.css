@@ -1,11 +1,10 @@
 .skills-grid {
   display: grid;
   justify-items: center;
-  column-gap: 2em;
-  row-gap: 2em;
-  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-template-rows: auto;
-  padding: 0 10em;
+  padding: 0 6em;
 }
 
 .skill-card-div {
@@ -13,7 +12,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 550px;
+  width: 500px;
   background-color: rgba(0, 0, 0, 0.753);
   color: white;
 }
@@ -26,9 +25,6 @@
 .skill-card-div:hover .skill-name {
   color: #00e1ff !important;
   transform: scale(1.1);
-}
-
-.skill-left {
 }
 
 .skill-right {
@@ -54,6 +50,7 @@
 }
 
 .skill-details {
+  font-size: 1.1em;
   margin: auto;
   width: 87%;
 }

@@ -94,7 +94,6 @@ export default function Projects() {
           to="https://github.com/diegomtzg"
           target="_blank"
           rel="noopener noreferrer"
-          className="icon-button github"
         >
           <Button>
             <FontAwesomeIcon className="more-icon" icon={faGithub} />

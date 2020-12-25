@@ -1,8 +1,7 @@
 .main {
   background: transparent;
   color: white;
-  min-height: 100vh;
-  height: auto;
+  height: 100vh;
 }
 
 .particles {
@@ -44,7 +43,7 @@
   height: 30px;
   width: 100vw;
   border-top: 2px solid rgb(255, 255, 255);
-  margin: 4em 0;
+  margin: 100px 0;
 }
 
 /* Page Nav Dots */

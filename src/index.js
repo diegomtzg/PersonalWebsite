@@ -35,7 +35,7 @@ const Fullpage = () => (
     onLeave={onLeave}
     fitToSection
     scrollingSpeed={600}
-    responsiveWidth={800} // Use if you can't get mobile sections to fit onto screen
+    responsiveWidth={960} // Use if you can't get mobile sections to fit onto screen
     touchSensitivity={25}
     fixedElements={[".particles", "#header"]}
     render={({ state, fullpageApi }) => {

@@ -34,19 +34,11 @@ export default function EducationCard({ schoolInfo }) {
             <Typography component="h5" variant="h5">
               {schoolInfo.degree}
             </Typography>
-            <Typography
-              className="education-bullets-title"
-              component="p"
-              variant="body1"
-            >
+            <Typography className="education-bullets-title" component="body1">
               <strong>{schoolInfo.dates}</strong>
               <br />
             </Typography>
-            <Typography
-              className="education-bullets-title"
-              component="p"
-              variant="body1"
-            >
+            <Typography className="education-bullets-title" component="body1">
               {schoolInfo.bulletsTitle}
             </Typography>
             <div className="education-text-bullets">
@@ -58,7 +50,7 @@ export default function EducationCard({ schoolInfo }) {
         </div>
       </div>
       <Slide left duration={2000}>
-        <div className="education-card-border"></div>
+        <div className="education-card-border" />
       </Slide>
     </div>
   );

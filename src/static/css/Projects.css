@@ -22,7 +22,6 @@
 
 .project-card-div:hover .project-name {
   color: #00e1ff !important;
-  transform: scale(1.1);
 }
 
 .project-stats {

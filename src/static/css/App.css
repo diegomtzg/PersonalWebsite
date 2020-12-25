@@ -40,6 +40,13 @@
   padding: 0.5em 1em;
 }
 
+.section-border {
+  height: 30px;
+  width: 100vw;
+  border-top: 2px solid rgb(255, 255, 255);
+  margin: 4em 0;
+}
+
 /* Page Nav Dots */
 #fp-nav ul li a span {
   background-color: #00e1ff;
@@ -177,6 +184,7 @@
   justify-content: flex-end;
   width: 100vw;
   position: relative;
+  margin-top: 4em;
   bottom: 0;
 }
 

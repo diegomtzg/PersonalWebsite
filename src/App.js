@@ -7,6 +7,7 @@ import Education from "./components/Education";
 import Work from "./components/Work";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Border from "./components/Border";
 import Footer from "./components/Footer";
 
 export default function App(props) {
@@ -23,7 +24,7 @@ export default function App(props) {
   ██████╔╝██║ ╚═╝ ██║
   ╚═════╝ ╚═╝     ╚═╝
     ` +
-        "\nSneaky sneakyyyyyy... jk mi code es tu code. Check out the source code at https://github.com/diegomtzg/ReactPortfolio\n"
+        "\nSneaky sneakyyyyyy :) Check out the source code at https://github.com/diegomtzg/ReactPortfolio\n\n"
     );
   }, []);
 
@@ -31,10 +32,15 @@ export default function App(props) {
     <div className="main">
       <Navbar />
       <Home />
+      <Border />
       <About />
+      <Border />
       <Education />
+      <Border />
       <Work />
+      <Border />
       <Projects />
+      <Border />
       <Skills />
       <Footer />
     </div>

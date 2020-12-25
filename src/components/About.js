@@ -8,6 +8,7 @@ import Fade from "react-reveal/Fade";
 import profilePic from "../assets/images/AboutPic.png";
 import Socials from "./Socials";
 import { makeStyles } from "@material-ui/core/styles";
+import "../static/css/About.css";
 
 const useStyles = makeStyles((theme) => ({
   large: {
@@ -21,9 +22,8 @@ export default function About() {
 
   return (
     <div className="section about">
-      <Grid container direction="row" alignItems="center" justify="flex-start">
-        <Grid item xs={1} />
-        <Grid item xs={10} md={6} align="center">
+      <div className="about-container">
+        <div className="about-left">
           {/* https://www.react-reveal.com/docs/props/ */}
           <Fade left duration={500}>
             <Typography variant="h2" align="left">
@@ -36,21 +36,17 @@ export default function About() {
               <Socials noLeft />
             </Typography>
           </Fade>
-        </Grid>
-        {/* Hide avatar on small screens */}
-        <Hidden smDown>
-          <Grid item md={4} align="center">
-            <Fade right>
-              <Avatar
-                className={classes.large + " about-avatar"}
-                src={profilePic}
-                alt="Diego Martinez"
-              />
-            </Fade>
-          </Grid>
-        </Hidden>
-        <Grid item xs={1} />
-      </Grid>
+        </div>
+        <div className="about-right">
+          <Fade right>
+            <Avatar
+              className={classes.large + " about-avatar"}
+              src={profilePic}
+              alt="Diego Martinez"
+            />
+          </Fade>
+        </div>
+      </div>
     </div>
   );
 }

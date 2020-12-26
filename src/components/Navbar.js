@@ -7,7 +7,7 @@ import DM from "../assets/images/DM.png";
 export default function Navbar() {
   return (
     <nav
-      className="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
+      className="navbar navbar-b navbar-trans navbar-expand fixed-top"
       id="header"
     >
       <Grid container direction="row" justify="space-between">

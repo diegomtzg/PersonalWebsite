@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="section home">
       <Grid container spacing={1}>
-        <Grid item xs={12} align="center">
+        <Grid item xs={12} align="center" className="home-content">
           <Typography variant="h2">Diego Martinez</Typography>
           <Typography variant="h3">
             <Typed

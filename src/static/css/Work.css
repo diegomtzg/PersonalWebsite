@@ -5,7 +5,6 @@ a {
 .experience-cards-div {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
-  grid-template-rows: min-content;
   column-gap: 3em;
   row-gap: 1em;
   margin: 0 5em;
@@ -96,6 +95,47 @@ a {
 
 @media (max-width: 960px) {
   .work {
-    height: 150vh !important;
+    height: 200vh !important;
+  }
+
+  .experience-cards-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-card {
+    /* transform: scale(0.7) translate(-100px); */
+    font-size: 0.7em;
+    min-height: 0;
+  }
+
+  .experience-text-role {
+    font-size: 1.5em;
+  }
+
+  .experience-banner {
+    height: 5rem;
+  }
+
+  .experience-company {
+    height: 5rem;
+  }
+
+  .experience-text-details {
+    margin-top: 0;
+  }
+
+  .experience-text-desc-bullets {
+    padding-left: 10px !important;
+  }
+
+  .experience-img {
+    top: 4rem;
+    width: 4rem;
+    height: auto;
+  }
+
+  .experience-card:hover {
+    transform: scale(0.85);
   }
 }

@@ -231,7 +231,7 @@
 
   .navbar {
     padding-top: 1em;
-    font-size: 0.5em;
+    font-size: 0em;
   }
 
   .nav-item {
@@ -244,7 +244,7 @@
 
   .navbar-b.navbar-trans .nav-link:hover:before,
   .navbar-b.navbar-reduce .nav-link:hover:before {
-    width: 15px;
+    width: 0px;
   }
 
   .navbar-b.navbar-trans .show > .nav-link:before,
@@ -255,7 +255,7 @@
   .navbar-b.navbar-reduce .active > .nav-link:before,
   .navbar-b.navbar-reduce .nav-link.show:before,
   .navbar-b.navbar-reduce .nav-link.active:before {
-    width: 15px;
+    width: 0px;
   }
 
   .home-content {

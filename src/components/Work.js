@@ -10,7 +10,7 @@ import "../static/css/Work.css";
 export default function Work() {
   return (
     <div className="section work ">
-      <div className="slide ">
+      <div className="slide">
         <Typography className="section-heading" component="h2" variant="h2">
           Work Experience
         </Typography>

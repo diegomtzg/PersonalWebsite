@@ -50,7 +50,7 @@ export default function Projects() {
             link: "",
             icon: faDiceD20,
             desc:
-              "3D graphics software built from scratch: Features include: Interactive mesh editing, realistic path tracing and dynamic animation.",
+              "3D graphics software built from scratch featuring interactive mesh editing, realistic path tracing and dynamic animation.",
             skills: ["Graphics"],
           }}
         />

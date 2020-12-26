@@ -2,7 +2,7 @@
   display: grid;
   justify-items: stretch;
   grid-gap: 1em;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-template-rows: auto;
   padding: 0 5em;
 }
@@ -59,6 +59,7 @@
 
 @media (max-width: 960px) {
   .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     margin: 0;
     padding: 0 0.5em !important;
   }

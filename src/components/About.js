@@ -1,7 +1,5 @@
 import React from "react";
-import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
-import Hidden from "@material-ui/core/Hidden";
 import Avatar from "@material-ui/core/Avatar";
 import emoji from "react-easy-emoji";
 import Fade from "react-reveal/Fade";
@@ -26,7 +24,7 @@ export default function About() {
         <div className="about-left">
           {/* https://www.react-reveal.com/docs/props/ */}
           <Fade left duration={500}>
-            <Typography variant="h2" align="left">
+            <Typography className="about-greeting" variant="h2" align="left">
               Hi! I'm Diego <span className="wave-emoji">{emoji("👋🏼")}</span>
             </Typography>
             <Typography variant="h4" align="left">

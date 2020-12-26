@@ -24,7 +24,7 @@
   height: 30px;
   width: 90%;
   border-top: 2px solid rgba(211, 211, 211, 0.397);
-  margin-bottom: 20px;
+  margin: 20px 0;
   -webkit-transition: width 0.6s ease-in-out;
   -moz-transition: width 0.6s ease-in-out;
   -o-transition: width 0.6s ease-in-out;
@@ -41,7 +41,6 @@
 
 .education-card-right {
   margin-left: 2%;
-  max-width: 70%;
   display: flex;
   flex-direction: column !important;
   text-align: left;
@@ -52,6 +51,30 @@
   padding-bottom: 0.2em;
 }
 
-p {
-  font-size: 1.4em;
+@media (max-width: 960px) {
+  .education-card-container {
+    padding: 0;
+    transform: scale(0.8);
+    width: 100%;
+  }
+
+  .education-card-border {
+    width: 100%;
+  }
+
+  .education-roundedimg {
+    object-fit: cover;
+    width: 6rem !important;
+    height: 6rem !important;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+  }
+
+  .education-card-right {
+    order: 1;
+  }
+
+  .education-card-left {
+    order: 2;
+  }
 }

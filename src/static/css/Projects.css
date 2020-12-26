@@ -100,3 +100,14 @@
   font-size: 1.2em;
   margin-right: 0.5em;
 }
+
+@media (max-width: 960px) {
+  .project-card-div {
+    transform: scale(0.9);
+    width: 94%;
+  }
+
+  .project-card-div:hover {
+    transform: scale(1.02);
+  }
+}

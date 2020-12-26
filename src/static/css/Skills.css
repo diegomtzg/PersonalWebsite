@@ -53,3 +53,24 @@
   margin: auto;
   width: 96%;
 }
+
+@media (max-width: 960px) {
+  .skills-grid {
+    display: grid;
+    justify-items: center;
+    grid-gap: 0.5em;
+    grid-template-columns: repeat(auto-fit, minmax(470px, 1fr));
+    grid-template-rows: auto;
+    padding: 0 0em;
+  }
+
+  .skill-card-div {
+    transform: scale(0.9);
+    width: 90%;
+  }
+
+  .skill-card-div:hover {
+    transform: scale(0.9);
+    border: 2px solid #00e1ff;
+  }
+}

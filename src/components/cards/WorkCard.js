@@ -22,18 +22,13 @@ export default function ExperienceCard({ cardInfo }) {
     >
       <div className="experience-card">
         <div className="experience-banner">
-          <div className="experience-blurred_div"></div>
-          <div className="experience-div-company">
-            <Typography
-              className="section-heading experience-text-company"
-              component="h5"
-              variant="h5"
-            >
+          <div className="experience-company">
+            <Typography className="section-heading" component="h5" variant="h5">
               <strong>{cardInfo.company}</strong>
             </Typography>
           </div>
           <img
-            className="experience-roundedimg"
+            className="experience-img"
             src={cardInfo.logo}
             alt={cardInfo.company}
           />

@@ -223,9 +223,9 @@
   color: #00e1ff;
 }
 
-/* Media Query */
-@media (max-width: 768px) {
-  .social-media-div {
-    text-align: center;
+@media (max-width: 960px) {
+  .section-heading {
+    transform: scale(0.7);
+    padding: 0 1em;
   }
 }

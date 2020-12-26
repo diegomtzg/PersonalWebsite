@@ -23,7 +23,7 @@ export default function About() {
       <div className="about-container">
         <div className="about-left">
           {/* https://www.react-reveal.com/docs/ */}
-          <Fade left duration={500}>
+          <Fade left>
             <Typography className="about-greeting" variant="h2" align="left">
               Hi! I'm Diego <span className="wave-emoji">{emoji("👋🏼")}</span>
             </Typography>

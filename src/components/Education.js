@@ -12,7 +12,7 @@ export default function Education() {
         Education
       </Typography>
       <div className="education-card-container">
-        <Slide left duration={600}>
+        <Slide left>
           <EducationCard
             schoolInfo={{
               name: "Carnegie Mellon University",
@@ -28,7 +28,7 @@ export default function Education() {
             }}
           />
         </Slide>
-        <Slide right duration={600}>
+        <Slide right>
           <EducationCard
             schoolInfo={{
               name: "Carnegie Mellon University",

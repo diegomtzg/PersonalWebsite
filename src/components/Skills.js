@@ -1,6 +1,6 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
 import {
   faMemory,
   faCogs,
@@ -18,7 +18,7 @@ export default function Skills() {
       <Typography className="section-heading" component="h2" variant="h2">
         Skills
       </Typography>
-      <Fade bottom duration={600}>
+      <Slide right>
         <div className="skills-grid">
           <SkillCard
             skillInfo={{
@@ -83,7 +83,7 @@ export default function Skills() {
             }}
           />
         </div>
-      </Fade>
+      </Slide>
     </div>
   );
 }

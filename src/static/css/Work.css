@@ -137,6 +137,6 @@ a {
   }
 
   .experience-card:hover {
-    transform: scale(0.85);
+    transform: none;
   }
 }

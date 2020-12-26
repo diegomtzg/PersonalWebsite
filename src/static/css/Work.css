@@ -94,8 +94,15 @@ a {
 }
 
 @media (max-width: 960px) {
+  .experience-cards-div {
+    margin: 0;
+    padding: 0 0.5em !important;
+  }
+
   .experience-card {
+    width: 85%;
     min-height: 0;
+    margin-left: 2em;
   }
 
   .experience-banner {

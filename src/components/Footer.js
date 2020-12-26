@@ -4,8 +4,8 @@ import Socials from "./Socials";
 
 export default function Footer() {
   return (
-    <div className="section fp-auto-height">
-      <footer className="footer">
+    <div className="section footer fp-auto-height">
+      <footer className="footer-div">
         <Socials />
         <div className="footer-text">
           <Typography component="h6" variant="h6">

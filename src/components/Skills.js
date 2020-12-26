@@ -20,26 +20,6 @@ export default function Skills() {
       <div className="skills-grid">
         <SkillCard
           skillInfo={{
-            name: "Software Engineering",
-            proficiency: "Advanced",
-            icon: faCogs,
-            color: "#fff",
-            details:
-              "API Design, Object-Oriented Design, Human-centered Software, Cloud Computing",
-          }}
-        />
-        <SkillCard
-          skillInfo={{
-            name: "Computer Systems",
-            proficiency: "Advanced",
-            icon: faMemory,
-            color: "#bd8b04",
-            details:
-              "Network Protocols, Distributed Systems, Real-Time Kernels, Drivers, ARM Assembly",
-          }}
-        />
-        <SkillCard
-          skillInfo={{
             name: "Computer Graphics",
             proficiency: "Intermediate",
             icon: faDiceD20,
@@ -58,6 +38,18 @@ export default function Skills() {
               "Computer Vision, Machine Learning, Generative Models, Image Synthesis",
           }}
         />
+
+        <SkillCard
+          skillInfo={{
+            name: "Computer Systems",
+            proficiency: "Advanced",
+            icon: faMemory,
+            color: "#bd8b04",
+            details:
+              "Network Protocols, Distributed Systems, Real-Time Kernels, Drivers, ARM Assembly",
+          }}
+        />
+
         <SkillCard
           skillInfo={{
             name: "Web Development",
@@ -66,6 +58,16 @@ export default function Skills() {
             color: "#aa00ff",
             details:
               "HTML5, CSS3, Javascript, Bootstrap, jQuery, AJAX, React, Django, NodeJS",
+          }}
+        />
+        <SkillCard
+          skillInfo={{
+            name: "Software Engineering",
+            proficiency: "Advanced",
+            icon: faCogs,
+            color: "#fff",
+            details:
+              "API Design, Object-Oriented Design, Human-centered Software, Cloud Computing",
           }}
         />
         <SkillCard

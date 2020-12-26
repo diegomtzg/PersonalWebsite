@@ -105,6 +105,7 @@ a {
 
   .experience-card {
     /* transform: scale(0.7) translate(-100px); */
+    margin-top: 2em;
     font-size: 0.7em;
     min-height: 0;
   }

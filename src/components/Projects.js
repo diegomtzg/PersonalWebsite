@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import Fade from "react-reveal/Fade";
 import {
   faCamera,
   faFileAlt,
@@ -21,73 +22,75 @@ export default function Projects() {
       <Typography className="section-heading" component="h2" variant="h2">
         Projects
       </Typography>
-      <div className="projects-grid">
-        <ProjectCard
-          projectInfo={{
-            name: "InFrame",
-            link: "https://github.com/diegomtzg/InFrame",
-            icon: faCamera,
-            desc:
-              "Robotic camera that uses real-time object detection to track user-selected targets.",
-            skills: ["Computer Vision", "Robotics"],
-          }}
-        />
+      <Fade bottom duration={600}>
+        <div className="projects-grid">
+          <ProjectCard
+            projectInfo={{
+              name: "InFrame",
+              link: "https://github.com/diegomtzg/InFrame",
+              icon: faCamera,
+              desc:
+                "Robotic camera that uses real-time object detection to track user-selected targets.",
+              skills: ["Computer Vision", "Robotics"],
+            }}
+          />
 
-        <ProjectCard
-          projectInfo={{
-            name: "Vitae",
-            link: "https://github.com/diegomtzg/Vitae",
-            icon: faFileAlt,
-            desc:
-              "Full stack web-application that lets users easily create beautiful online portfolios to showcase their professional experiences.",
-            skills: ["Web Dev"],
-          }}
-        />
+          <ProjectCard
+            projectInfo={{
+              name: "Vitae",
+              link: "https://github.com/diegomtzg/Vitae",
+              icon: faFileAlt,
+              desc:
+                "Full stack web-application that lets users easily create beautiful online portfolios to showcase their professional experiences.",
+              skills: ["Web Dev"],
+            }}
+          />
 
-        <ProjectCard
-          projectInfo={{
-            name: "Scotty3D",
-            link: "",
-            icon: faDiceD20,
-            desc:
-              "3D graphics software built from scratch featuring interactive mesh editing, realistic path tracing and dynamic animation.",
-            skills: ["Graphics"],
-          }}
-        />
+          <ProjectCard
+            projectInfo={{
+              name: "Scotty3D",
+              link: "",
+              icon: faDiceD20,
+              desc:
+                "3D graphics software built from scratch featuring interactive mesh editing, realistic path tracing and dynamic animation.",
+              skills: ["Graphics"],
+            }}
+          />
 
-        <ProjectCard
-          projectInfo={{
-            name: "CDC WonderPy",
-            link: "https://github.com/diegomtzg/CDC-WonderPy",
-            icon: faHeartbeat,
-            desc:
-              "An API wrapper designed to improve access to the CDC's WONDER database.",
-            skills: ["SW Design"],
-          }}
-        />
+          <ProjectCard
+            projectInfo={{
+              name: "CDC WonderPy",
+              link: "https://github.com/diegomtzg/CDC-WonderPy",
+              icon: faHeartbeat,
+              desc:
+                "An API wrapper designed to improve access to the CDC's WONDER database.",
+              skills: ["SW Design"],
+            }}
+          />
 
-        <ProjectCard
-          projectInfo={{
-            name: "MirrorX",
-            link: "https://github.com/diegomtzg/MirrorX",
-            icon: faTabletAlt,
-            desc:
-              "Smart mirror with facial recognition login that pulls daily info from various public APIs.",
-            skills: ["Computer Vision", "SW Design"],
-          }}
-        />
+          <ProjectCard
+            projectInfo={{
+              name: "MirrorX",
+              link: "https://github.com/diegomtzg/MirrorX",
+              icon: faTabletAlt,
+              desc:
+                "Smart mirror with facial recognition login that pulls daily info from various public APIs.",
+              skills: ["Computer Vision", "SW Design"],
+            }}
+          />
 
-        <ProjectCard
-          projectInfo={{
-            name: "ScreenBacklight",
-            link: "https://github.com/diegomtzg/ScreenBacklight",
-            icon: faLaptopCode,
-            desc:
-              "Ambient lighting system to enhance movie viewing and music listening experience.",
-            skills: ["Embedded Systems", "SW Design"],
-          }}
-        />
-      </div>
+          <ProjectCard
+            projectInfo={{
+              name: "ScreenBacklight",
+              link: "https://github.com/diegomtzg/ScreenBacklight",
+              icon: faLaptopCode,
+              desc:
+                "Ambient lighting system to enhance movie viewing and music listening experience.",
+              skills: ["Embedded Systems", "SW Design"],
+            }}
+          />
+        </div>
+      </Fade>
       <div className="more-projects">
         <ReactGA.OutboundLink
           eventLabel="Socials: Github [from Projects]"

@@ -15,7 +15,7 @@
 
 .about-right {
   order: 2;
-  margin-bottom: 5em;
+  margin-top: 2em;
 }
 
 @media (max-width: 960px) {
@@ -25,11 +25,11 @@
   }
 
   .about-left {
-    order: 2;
+    order: 1;
     width: 95%;
   }
 
   .about-right {
-    order: 1;
+    order: 2;
   }
 }

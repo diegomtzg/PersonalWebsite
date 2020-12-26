@@ -8,11 +8,12 @@
 }
 
 .skill-card-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
   background-color: rgba(0, 0, 0, 0.753);
-  color: white;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
-  padding: 2rem;
-  cursor: pointer;
 }
 
 .skill-card-div:hover {
@@ -24,9 +25,13 @@
   color: #00e1ff !important;
 }
 
+.skill-left {
+  width: 80px;
+}
+
 .skill-right {
   padding: 1em 0;
-  padding-right: 1em;
+  padding-left: 0 !important;
   text-align: center;
 }
 
@@ -65,5 +70,15 @@
 
   .skill-card-div:hover {
     transform: scale(1.02);
+  }
+
+  .skill-left {
+    position: relative;
+    transform: scale(0.8);
+  }
+
+  .skill-right {
+    padding: 0 1em;
+    transform: scale(0.9);
   }
 }

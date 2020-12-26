@@ -1,8 +1,13 @@
+body {
+  overflow-x: hidden !important;
+}
+
 .main {
   background: transparent;
   color: white;
   height: 100vh;
-  width: 100vw;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
 }
 
 .particles {
@@ -227,6 +232,6 @@
 @media (max-width: 960px) {
   .section-heading {
     transform: scale(0.7);
-    padding: 0 1em;
+    padding: 0;
   }
 }

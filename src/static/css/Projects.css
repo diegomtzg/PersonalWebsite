@@ -1,7 +1,7 @@
 .projects-grid {
   display: grid;
   grid-gap: 1em;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
   padding: 0 5em;
 }
 
@@ -108,7 +108,6 @@
 
   .project-card-div {
     transform: scale(0.9);
-    width: 100%;
   }
 
   .project-card-div:hover {

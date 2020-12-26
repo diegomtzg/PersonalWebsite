@@ -1,9 +1,7 @@
 .projects-grid {
   display: grid;
-  justify-items: stretch;
   grid-gap: 1em;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
-  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   padding: 0 5em;
 }
 
@@ -13,6 +11,7 @@
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   padding: 2rem;
   cursor: pointer;
+  margin-right: 0 !important;
 }
 
 .project-card-div:hover {
@@ -104,15 +103,15 @@
 @media (max-width: 960px) {
   .projects-grid {
     margin: 0;
-    padding: 0 0.5em !important;
+    padding: 0 !important;
   }
 
   .project-card-div {
     transform: scale(0.9);
-    width: 90%;
+    width: 100%;
   }
 
   .project-card-div:hover {
-    transform: scale(1.02);
+    transform: scale(0.95);
   }
 }

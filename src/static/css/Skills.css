@@ -65,11 +65,10 @@
 
   .skill-card-div {
     transform: scale(0.9);
-    width: 90%;
   }
 
   .skill-card-div:hover {
-    transform: scale(1.02);
+    transform: scale(0.95);
   }
 
   .skill-left {

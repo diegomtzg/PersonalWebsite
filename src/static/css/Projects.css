@@ -102,9 +102,14 @@
 }
 
 @media (max-width: 960px) {
+  .projects-grid {
+    margin: 0;
+    padding: 0 0.5em !important;
+  }
+
   .project-card-div {
     transform: scale(0.9);
-    width: 94%;
+    width: 90%;
   }
 
   .project-card-div:hover {

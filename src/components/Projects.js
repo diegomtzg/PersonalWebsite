@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
-import Slide from "react-reveal/Slide";
+import Fade from "react-reveal/Fade";
 import {
   faCamera,
   faFileAlt,
@@ -22,7 +22,7 @@ export default function Projects() {
       <Typography className="section-heading" component="h2" variant="h2">
         Projects
       </Typography>
-      <Slide left>
+      <Fade bottom>
         <div className="projects-grid">
           <ProjectCard
             projectInfo={{
@@ -90,7 +90,7 @@ export default function Projects() {
             }}
           />
         </div>
-      </Slide>
+      </Fade>
       <div className="more-projects">
         <ReactGA.OutboundLink
           eventLabel="Socials: Github [from Projects]"

@@ -15,7 +15,7 @@ export default function Work() {
         <Typography className="section-heading" component="h2" variant="h2">
           Work Experience
         </Typography>
-        <Fade left>
+        <Fade bottom>
           <div className="experience-cards-div">
             <WorkCard
               cardInfo={{

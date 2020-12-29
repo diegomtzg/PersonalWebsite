@@ -93,9 +93,9 @@ a {
   margin-top: 2rem;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1000px) {
   .work {
-    height: 200vh !important;
+    height: 250vh !important;
   }
 
   .experience-cards-div {
@@ -138,5 +138,21 @@ a {
 
   .experience-card:hover {
     transform: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .work {
+    height: 400vh !important;
+  }
+}
+
+@media (max-width: 1050px) {
+  .experience-cards-div {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .experience-card {
+    transform: scale(0.9);
   }
 }

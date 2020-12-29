@@ -57,7 +57,7 @@
   width: 80%;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1050px) {
   .skills-grid {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     margin: 0;

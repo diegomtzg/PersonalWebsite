@@ -100,7 +100,7 @@
   margin-right: 0.5em;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1050px) {
   .projects-grid {
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     margin: 0;

@@ -51,7 +51,7 @@
   padding-bottom: 0.2em;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1050px) {
   .education-card-container {
     padding: 0;
     transform: scale(0.8);

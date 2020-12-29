@@ -1,7 +1,7 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
 import Slide from "react-reveal/Slide";
-import cmuLogo from "../assets/images/CMU.png";
+import cmuLogo from "../assets/images/CMU.jpg";
 import EducationCard from "./cards/EducationCard";
 import "../static/css/Education.css";
 

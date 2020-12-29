@@ -3,7 +3,7 @@ import Typography from "@material-ui/core/Typography";
 import Avatar from "@material-ui/core/Avatar";
 import emoji from "react-easy-emoji";
 import Fade from "react-reveal/Fade";
-import profilePic from "../assets/images/AboutPic.png";
+import profilePic from "../assets/images/AboutPic.jpg";
 import Socials from "./Socials";
 import { makeStyles } from "@material-ui/core/styles";
 import "../static/css/About.css";

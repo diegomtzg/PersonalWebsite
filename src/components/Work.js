@@ -2,10 +2,10 @@ import React from "react";
 import Typography from "@material-ui/core/Typography";
 import Fade from "react-reveal/Fade";
 import WorkCard from "./cards/WorkCard";
-import xLogo from "../assets/images/X.png";
-import googleLogo from "../assets/images/Google.png";
-import microsoftLogo from "../assets/images/Microsoft.png";
-import cmuLogo from "../assets/images/CMU_Red.png";
+import xLogo from "../assets/images/X.jpg";
+import googleLogo from "../assets/images/Google.jpg";
+import microsoftLogo from "../assets/images/Microsoft.jpg";
+import cmuLogo from "../assets/images/CMU_Red.jpg";
 import "../static/css/Work.css";
 
 export default function Work() {

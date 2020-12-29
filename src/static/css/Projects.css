@@ -77,6 +77,10 @@
   -webkit-box-orient: vertical;
 }
 
+.project-card-div:hover .project-description {
+  -webkit-line-clamp: 5;
+}
+
 .more-projects {
   margin-top: 2.5em;
   display: flex;

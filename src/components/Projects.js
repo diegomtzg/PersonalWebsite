@@ -22,7 +22,7 @@ export default function Projects() {
       <Typography className="section-heading" component="h2" variant="h2">
         Projects
       </Typography>
-      <Fade bottom>
+      <Fade bottom cascade>
         <div className="projects-grid">
           <ProjectCard
             projectInfo={{
@@ -88,20 +88,21 @@ export default function Projects() {
             }}
           />
         </div>
+
+        <div className="more-projects">
+          <ReactGA.OutboundLink
+            eventLabel="Socials: Github [from Projects]"
+            to="https://github.com/diegomtzg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button>
+              <FontAwesomeIcon className="more-icon" icon={faGithub} />
+              View More Projects
+            </Button>
+          </ReactGA.OutboundLink>
+        </div>
       </Fade>
-      <div className="more-projects">
-        <ReactGA.OutboundLink
-          eventLabel="Socials: Github [from Projects]"
-          to="https://github.com/diegomtzg"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Button>
-            <FontAwesomeIcon className="more-icon" icon={faGithub} />
-            View More Projects
-          </Button>
-        </ReactGA.OutboundLink>
-      </div>
     </div>
   );
 }

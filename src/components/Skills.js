@@ -8,7 +8,11 @@ import {
   faDiceD20,
   faLaptopCode,
   faToolbox,
+  faDownload,
 } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ReactGA from "react-ga";
+import Button from "@material-ui/core/Button";
 import "../static/css/Skills.css";
 import SkillCard from "./cards/SkillCard";
 
@@ -18,7 +22,7 @@ export default function Skills() {
       <Typography className="section-heading" component="h2" variant="h2">
         Skills
       </Typography>
-      <Fade bottom>
+      <Fade bottom cascade>
         <div className="skills-grid">
           <SkillCard
             skillInfo={{
@@ -82,6 +86,20 @@ export default function Skills() {
                 "C/C++, Python, Java, Golang, Bash, SQL, Git, OpenCV, MATLAB, Arduino",
             }}
           />
+        </div>
+
+        <div className="more-projects">
+          <ReactGA.OutboundLink
+            eventLabel="Resume"
+            to="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button>
+              <FontAwesomeIcon className="more-icon" icon={faDownload} />
+              Download Resume
+            </Button>
+          </ReactGA.OutboundLink>
         </div>
       </Fade>
     </div>

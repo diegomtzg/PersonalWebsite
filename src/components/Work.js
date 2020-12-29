@@ -23,12 +23,12 @@ export default function Work() {
                 companyLink: "https://x.company/projects/everyday-robots/",
                 logo: xLogo,
                 desc:
-                  "Explored new grasp proposal representations for an end-to-end RL deep-grasping policy in robot applications that used image embeddings.",
+                  "Researched new robotic grasp representations that used data embeddings in images to improve performance on an end-to-end RL grasping policy.",
                 date: "Summer 2020",
                 role: "AI Resident",
                 team: "The Everyday Robot Project",
                 descBullets: [
-                  "Discovered grasp representations improved model performance by 4% on average.",
+                  "Image embeddings leverage translational invariance of CNNs since a successful grasp is independent of the surrounding environment.",
                 ],
               }}
             />
@@ -38,11 +38,12 @@ export default function Work() {
                 companyLink: "https://x.company/projects/everyday-robots/",
                 logo: xLogo,
                 desc:
-                  "Developed a VR interface to remotely teleoperate robots using an Oculus Quest.",
+                  "Developed an end-to-end solution to remotely teleoperate robots using an Oculus Quest.",
                 date: "Summer 2019",
                 role: "Robotics Software Intern",
                 descBullets: [
-                  "This controller interface is actively being used to gather data to enable robots to autonomously learn new tasks.",
+                  "Wrote client and server code to set up and manage communication over HTTP.",
+                  "This interface is actively being used to collect data so that robots can autonomously learn to perform new tasks.",
                 ],
               }}
             />
@@ -53,10 +54,11 @@ export default function Work() {
                   "https://chromium.googlesource.com/infra/infra/+/master/go/src/infra/tricium/README.md",
                 logo: googleLogo,
                 desc:
-                  "Developed a suite of static analyzers for Tricium, an automated code review tool for the Chrome open source project.",
+                  "Developed a suite of static analyzers for Tricium, an automated code review tool for Chrome developers.",
                 date: "Summer 2018",
                 role: "Software Engineering Intern",
                 descBullets: [
+                  "Analyzers include Python/C++ linters, comment spell checkers and whitespace checkers.",
                   "The analyzers run 1,000’s reqs/hour and have generated hundreds of automated comments across Chrome dev teams.",
                 ],
               }}
@@ -79,8 +81,8 @@ export default function Work() {
               date: "Summer 2018",
               role: "TA | Principles of Software Construction",
               descBullets: [
-                "Held recitations, 1:1 office hours and course-wide exam review sessions for 100+ students.",
-                "Provided medium-scale software design feedback and helped with homework grading.",
+                "Held recitations, office hours and course-wide exam review sessions for 100+ students.",
+                "Provided medium-scale software design and homework feedback.",
               ],
             }}
           />

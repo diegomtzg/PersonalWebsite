@@ -97,7 +97,7 @@ export default function Skills() {
           >
             <Button>
               <FontAwesomeIcon className="more-icon" icon={faDownload} />
-              Download Resume
+              Resume
             </Button>
           </ReactGA.OutboundLink>
         </div>

@@ -24,7 +24,7 @@ export default function App(props) {
   ██████╔╝██║ ╚═╝ ██║
   ╚═════╝ ╚═╝     ╚═╝
     ` +
-        "\nSneaky sneakyyyyyy :) Check out the source code at https://github.com/diegomtzg/ReactPortfolio\n\n"
+        "\nSneaky sneakyyyyyy :) Check out the source code at https://github.com/diegomtzg/PersonalWebsite\n\n"
     );
   }, []);
 

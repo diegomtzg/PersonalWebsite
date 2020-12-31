@@ -1,4 +1,4 @@
-# diegomartinez.me
+# [Personal Website](diegomartinez.me)
 
 ## Technologies used
 

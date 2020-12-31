@@ -4,7 +4,7 @@
   height: 100vh;
 }
 
-.body {
+.root {
   width: 100% !important;
   overflow-x: hidden !important;
 }
@@ -275,9 +275,5 @@
 
   .home-content {
     transform: scale(0.7);
-  }
-
-  .body {
-    width: 100vw !important;
   }
 }

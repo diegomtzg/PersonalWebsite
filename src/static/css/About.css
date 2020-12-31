@@ -9,13 +9,13 @@
   display: flex;
   flex-direction: column;
   justify-content: left;
-  width: 50%;
+  width: 60%;
   order: 1;
 }
 
 .about-right {
   order: 2;
-  margin-top: 2em;
+  padding-bottom: 1em;
 }
 
 @media (max-width: 1050px) {
@@ -24,12 +24,18 @@
     transform: scale(0.8);
   }
 
+  .about-greeting {
+    padding-bottom: 20px;
+  }
+
   .about-left {
     order: 1;
-    width: 95%;
+    width: 100%;
+    font-size: 0.8em;
   }
 
   .about-right {
+    padding-top: 2em;
     order: 2;
   }
 }

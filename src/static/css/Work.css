@@ -140,9 +140,9 @@ a {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 390px) {
   .work {
-    height: 400vh !important;
+    height: 380vh !important;
   }
 }
 

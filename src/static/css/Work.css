@@ -105,4 +105,8 @@ a {
   .experience-card:hover {
     transform: none;
   }
+
+  .experience-text-desc-bullets {
+    padding-left: 1em;
+  }
 }

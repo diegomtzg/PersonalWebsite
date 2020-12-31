@@ -1,8 +1,10 @@
 .projects-grid {
   display: grid;
+  justify-content: center;
   grid-gap: 1em;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   padding: 0 5em;
+  font-family: "Montserrat", sans-serif;
 }
 
 .project-card-div {

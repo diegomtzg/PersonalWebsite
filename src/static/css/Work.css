@@ -4,16 +4,19 @@ a {
 
 .experience-cards-div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   column-gap: 3em;
   row-gap: 1em;
   margin: 0 5em;
+  font-family: "Montserrat", sans-serif;
 }
 
 .experience-card {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   background: rgba(0, 0, 0, 0.6);
-  border: 1px solid rgba(211, 211, 211, 0);
   min-height: 550px;
 }
 
@@ -26,44 +29,31 @@ a {
   color: #00e1ff;
 }
 
-.experience-banner {
-  display: flex;
-  justify-content: center;
-  height: 11rem;
-}
-
 .experience-company {
   color: white;
   font-size: 1.5em;
-  height: 7.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 1.5em;
 }
 
 .experience-img {
-  position: absolute;
-  object-fit: cover;
-  left: 0;
-  right: 0;
-  top: 7rem;
-  margin-left: auto;
-  margin-right: auto;
   width: 8rem;
   height: auto;
   border-radius: 50%;
+}
+
+.experience-text-details {
+  padding: 1.5em;
+  margin-top: 0;
 }
 
 .experience-text-role {
   color: white !important;
   text-align: center;
   color: black;
-  font-weight: 700;
-  font-size: 25px;
-  margin: 0px;
-  padding-top: 2rem;
-  line-height: normal;
+  font-weight: bold;
+  font-size: 1.5em;
 }
+
 .experience-text-date {
   color: white !important;
   text-align: center;
@@ -87,14 +77,9 @@ a {
   font-size: 1.1em;
 }
 
-.experience-text-details {
-  padding: 1.5rem;
-  margin-top: 2rem;
-}
-
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   .work {
-    height: 250vh !important;
+    height: fit-content !important;
   }
 
   .experience-cards-div {
@@ -103,7 +88,6 @@ a {
   }
 
   .experience-card {
-    /* transform: scale(0.7) translate(-100px); */
     margin-top: 2em;
     font-size: 0.7em;
     min-height: 0;
@@ -113,45 +97,12 @@ a {
     font-size: 1.5em;
   }
 
-  .experience-banner {
-    height: 5rem;
-  }
-
-  .experience-company {
-    height: 5rem;
-  }
-
-  .experience-text-details {
-    margin-top: 0;
-  }
-
-  .experience-text-desc-bullets {
-    padding-left: 10px !important;
-  }
-
   .experience-img {
-    top: 4rem;
     width: 4rem;
     height: auto;
   }
 
   .experience-card:hover {
     transform: none;
-  }
-}
-
-@media (max-width: 390px) {
-  .work {
-    height: 380vh !important;
-  }
-}
-
-@media (max-width: 1050px) {
-  .experience-cards-div {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  }
-
-  .experience-card {
-    transform: scale(0.9);
   }
 }

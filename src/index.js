@@ -10,7 +10,6 @@ import $ from "jquery";
 import "./static/css/App.css";
 import "./static/css/index.css";
 import theme from "./static/const/theme";
-import reportWebVitals from "./reportWebVitals";
 
 function onLeave(origin, destination, direction) {
   // console.log(origin.anchor, destination.anchor);
@@ -35,7 +34,7 @@ const Fullpage = () => (
     onLeave={onLeave}
     fitToSection
     scrollingSpeed={600}
-    responsiveWidth={960} // Use if you can't get mobile sections to fit onto screen
+    responsiveWidth={1050} // Use if you can't get mobile sections to fit onto screen
     touchSensitivity={25}
     fixedElements={[".particles", "#header"]}
     render={({ state, fullpageApi }) => {
@@ -61,8 +60,3 @@ ReactDOM.render(
   </React.Fragment>,
   document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

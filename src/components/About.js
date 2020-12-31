@@ -24,16 +24,16 @@ export default function About() {
         <div className="about-left">
           {/* https://www.react-reveal.com/docs/ */}
           <Fade left>
-            <Typography className="about-greeting" variant="h2" align="left">
+            <h2 className="about-greeting">
               Hi! I'm Diego <span className="wave-emoji">{emoji("👋🏼")}</span>
-            </Typography>
-            <Typography variant="h4" align="left">
+            </h2>
+            <Typography variant="h4" align="justify">
               I’m a software engineer with a passion for integrating technology
               into society and a firm believer in its ability to enhance human
               experiences.
             </Typography>
             <br />
-            <Typography variant="h4" align="left">
+            <Typography variant="h4" align="justify">
               I constantly seek opportunities to work on projects that reshape
               how the world will interact with technology in the future. By
               doing research in computer vision and artificial intelligence,
@@ -43,7 +43,7 @@ export default function About() {
               people to live more fulfilling lives.
             </Typography>
             <br />
-            <Typography variant="h4" align="left">
+            <Typography variant="h4" align="justify">
               What we make reflects who we are, so I’m passionate about finding
               ways of moving technology forward in the right ways, by augmenting
               – not replacing – human experiences.

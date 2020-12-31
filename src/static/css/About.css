@@ -34,7 +34,6 @@
 @media (max-width: 1050px) {
   .about-container {
     flex-flow: column wrap;
-    transform: scale(0.8);
   }
 
   .about-greeting {
@@ -43,7 +42,7 @@
 
   .about-left {
     order: 1;
-    width: 100%;
+    width: 80%;
     font-size: 0.9em !important;
     -ms-word-break: break-all;
     word-break: break-all;
@@ -56,6 +55,7 @@
   }
 
   .about-right {
+    transform: scale(0.8);
     padding-top: 2em;
     order: 2;
   }

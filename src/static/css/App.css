@@ -7,9 +7,9 @@ body {
   width: 100%;
 }
 
-#root {
-  /* position: relative !important;
-  overflow-x: hidden !important; */
+.main {
+  position: relative !important;
+  overflow-x: hidden !important;
 }
 
 .particles {

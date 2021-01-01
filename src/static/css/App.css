@@ -104,6 +104,11 @@ body {
   transition: all 500ms ease;
 }
 
+.navbar-b.navbar-trans .nav-link:hover:before,
+.navbar-b.navbar-reduce .nav-link:hover:before {
+  width: 35px;
+}
+
 .navbar-b.navbar-trans .show > .nav-link:before,
 .navbar-b.navbar-trans .active > .nav-link:before,
 .navbar-b.navbar-trans .nav-link.show:before,
@@ -208,6 +213,11 @@ body {
 
   .nav-link {
     padding-bottom: 0.4em;
+  }
+
+  .navbar-b.navbar-trans .nav-link:hover:before,
+  .navbar-b.navbar-reduce .nav-link:hover:before {
+    width: 15px;
   }
 
   .navbar-b.navbar-trans .show > .nav-link:before,

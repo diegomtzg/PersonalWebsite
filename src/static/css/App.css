@@ -26,7 +26,7 @@
   position: fixed !important;
   color: white;
   font-family: "Montserrat", sans-serif;
-  width: 100%;
+  width: 100vw;
 }
 
 .nav-brand-div {
@@ -246,6 +246,10 @@
     background-color: rgba(0, 0, 0, 0.6);
     padding-top: 1em;
     font-size: 2.5vw;
+  }
+
+  .nav-container {
+    justify-content: center;
   }
 
   .nav-link {

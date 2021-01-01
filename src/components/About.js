@@ -27,13 +27,13 @@ export default function About() {
             <h2 className="about-greeting">
               Hi! I'm Diego <span className="wave-emoji">{emoji("👋🏼")}</span>
             </h2>
-            <Typography variant="h4" align="justify">
+            <Typography variant="h4" align="left">
               I’m a software engineer with a passion for integrating technology
               into society and a firm believer in its ability to enhance human
               experiences.
             </Typography>
             <br />
-            <Typography variant="h4" align="justify">
+            <Typography variant="h4" align="left">
               I constantly seek opportunities to work on projects that reshape
               how the world will interact with technology in the future. By
               doing research in computer vision and artificial intelligence,
@@ -43,7 +43,7 @@ export default function About() {
               people to live more fulfilling lives.
             </Typography>
             <br />
-            <Typography variant="h4" align="justify">
+            <Typography variant="h4" align="left">
               What we make reflects who we are, so I’m passionate about finding
               ways of moving technology forward in the right ways, by augmenting
               – not replacing – human experiences.

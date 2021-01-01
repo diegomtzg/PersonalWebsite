@@ -4,10 +4,10 @@
   height: 100vh;
 }
 
-/* #root {
-  position: relative !important;
-  overflow-x: hidden !important;
-} */
+#root {
+  /* position: relative !important;
+  overflow-x: hidden !important; */
+}
 
 .particles {
   position: fixed !important;

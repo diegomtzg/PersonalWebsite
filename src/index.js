@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { render } from "react-snapshot";
 import { ThemeProvider } from "@material-ui/core/styles";
 import ReactFullpage from "@fullpage/react-fullpage";
 import Particles from "react-tsparticles";
@@ -35,28 +35,25 @@ const Fullpage = () => (
     fitToSection
     scrollingSpeed={600}
     responsiveWidth={1050} // Use if you can't get mobile sections to fit onto screen
-    touchSensitivity={25}
+    touchSensitivity={15}
     fixedElements={[".particles", ".nav-container"]}
     render={({ state, fullpageApi }) => {
       return (
-        <ReactFullpage.Wrapper>
-          <Particles
-            height="100vh"
-            params={particleParams}
-            className="particles"
-          />
-          <App />
-        </ReactFullpage.Wrapper>
+        <React.Fragment>
+          <ThemeProvider theme={theme}>
+            <ReactFullpage.Wrapper>
+              <Particles
+                height="100vh"
+                params={particleParams}
+                className="particles"
+              />
+              <App />
+            </ReactFullpage.Wrapper>
+          </ThemeProvider>
+        </React.Fragment>
       );
     }}
   />
 );
 
-ReactDOM.render(
-  <React.Fragment>
-    <ThemeProvider theme={theme}>
-      <Fullpage />
-    </ThemeProvider>
-  </React.Fragment>,
-  document.getElementById("root")
-);
+render(<Fullpage />, document.getElementById("root"));

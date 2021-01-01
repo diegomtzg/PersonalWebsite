@@ -1,7 +1,10 @@
-.main {
+body {
   background: transparent;
   color: white;
-  height: 100vh;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 #root {
@@ -101,16 +104,6 @@
   transition: all 500ms ease;
 }
 
-.navbar-b.navbar-trans .nav-link:hover,
-.navbar-b.navbar-reduce .nav-link:hover {
-  color: #1b1b1b;
-}
-
-.navbar-b.navbar-trans .nav-link:hover:before,
-.navbar-b.navbar-reduce .nav-link:hover:before {
-  width: 35px;
-}
-
 .navbar-b.navbar-trans .show > .nav-link:before,
 .navbar-b.navbar-trans .active > .nav-link:before,
 .navbar-b.navbar-trans .nav-link.show:before,
@@ -126,26 +119,11 @@
   background-color: #00e1ff;
 }
 
-.navbar-b.navbar-trans .nav-link:hover {
-  color: #fff;
-}
-
-.navbar-b.navbar-trans .show > .nav-link,
-.navbar-b.navbar-trans .active > .nav-link,
-.navbar-b.navbar-trans .nav-link.show,
-.navbar-b.navbar-trans .nav-link.active {
-  color: #fff;
-}
-
 .navbar-b.navbar-reduce {
   transition: all 0.5s ease-in-out;
   background-color: #fff;
   padding-top: 15px;
   padding-bottom: 15px;
-}
-
-.navbar-b.navbar-reduce .navbar-toggler span {
-  background-color: #1b1b1b;
 }
 
 .navbar-b .navbar-brand {
@@ -230,11 +208,6 @@
 
   .nav-link {
     padding-bottom: 0.4em;
-  }
-
-  .navbar-b.navbar-trans .nav-link:hover:before,
-  .navbar-b.navbar-reduce .nav-link:hover:before {
-    width: 15px;
   }
 
   .navbar-b.navbar-trans .show > .nav-link:before,

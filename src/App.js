@@ -9,6 +9,21 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Border from "./components/Border";
 import Footer from "./components/Footer";
+import { ThemeProvider } from "@material-ui/core/styles";
+import ReactFullpage from "@fullpage/react-fullpage";
+import Particles from "react-tsparticles";
+import particleParams from "./static/const/particles.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import $ from "jquery";
+import "./static/css/App.css";
+import "./static/css/index.css";
+import theme from "./static/const/theme";
+
+function onLeave(origin, destination, direction) {
+  // console.log(origin.anchor, destination.anchor);
+  $("#" + origin.anchor + "-nav").removeClass("active");
+  $("#" + destination.anchor + "-nav").addClass("active");
+}
 
 export default function App(props) {
   useEffect(() => {
@@ -24,25 +39,57 @@ export default function App(props) {
   ██████╔╝██║ ╚═╝ ██║
   ╚═════╝ ╚═╝     ╚═╝
     ` +
-        "\nSneaky sneakyyyyyy :) Check out the source code at https://github.com/diegomtzg/PersonalWebsite\n\n"
+        "\nCheck out the source code at https://github.com/diegomtzg/PersonalWebsite\n\n"
     );
   }, []);
 
   return (
     <div className="main">
-      <Navbar />
-      <Home />
-      <Border />
-      <About />
-      <Border />
-      <Education />
-      <Border />
-      <Work />
-      <Border />
-      <Projects />
-      <Border />
-      <Skills />
-      <Footer />
+      <ReactFullpage
+        anchors={[
+          "home",
+          "about",
+          "education",
+          "work",
+          "projects",
+          "skills",
+          "footer",
+        ]}
+        licenseKey={process.env.REACT_APP_FULLPAGE_KEY}
+        recordHistory={false}
+        onLeave={onLeave}
+        fitToSection
+        scrollingSpeed={600}
+        responsiveWidth={1050} // Use if you can't get mobile sections to fit onto screen
+        touchSensitivity={15}
+        fixedElements={[".particles", ".nav-container"]}
+        render={({ state, fullpageApi }) => {
+          return (
+            <ThemeProvider theme={theme}>
+              <ReactFullpage.Wrapper>
+                <Particles
+                  height="100vh"
+                  params={particleParams}
+                  className="particles"
+                />
+                <Navbar />
+                <Home />
+                <Border />
+                <About />
+                <Border />
+                <Education />
+                <Border />
+                <Work />
+                <Border />
+                <Projects />
+                <Border />
+                <Skills />
+                <Footer />
+              </ReactFullpage.Wrapper>
+            </ThemeProvider>
+          );
+        }}
+      />
     </div>
   );
 }

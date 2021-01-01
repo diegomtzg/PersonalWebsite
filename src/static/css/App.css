@@ -18,20 +18,27 @@
   z-index: -1 !important;
 }
 
-#header {
-  margin-top: 5px;
+.nav-container {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+
   position: fixed !important;
   color: white;
   font-family: "Montserrat", sans-serif;
   width: 100%;
 }
 
-.navbar-brand {
-  margin-left: 20px;
+.nav-brand-div {
+  display: inline-flex;
+  margin-left: 15px;
+}
+
+.nav-sections-div {
+  display: inline-flex;
 }
 
 .dm-logo {
-  margin-right: 10px;
   width: 15%;
   height: auto;
 }
@@ -235,10 +242,6 @@
     padding: 0;
   }
 
-  #header {
-    margin-top: 0;
-  }
-
   .navbar {
     background-color: rgba(0, 0, 0, 0.6);
     padding-top: 1em;
@@ -275,5 +278,9 @@
 
   .home-content {
     transform: scale(0.7);
+  }
+
+  .MuiAvatar-img:hover {
+    transform: none;
   }
 }

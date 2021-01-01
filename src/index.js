@@ -36,7 +36,7 @@ const Fullpage = () => (
     scrollingSpeed={600}
     responsiveWidth={1050} // Use if you can't get mobile sections to fit onto screen
     touchSensitivity={25}
-    fixedElements={[".particles", "#header"]}
+    fixedElements={[".particles", ".nav-container"]}
     render={({ state, fullpageApi }) => {
       return (
         <ReactFullpage.Wrapper>

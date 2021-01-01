@@ -1,7 +1,6 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
 import Avatar from "@material-ui/core/Avatar";
-import emoji from "react-easy-emoji";
 import Fade from "react-reveal/Fade";
 import profilePic from "../assets/images/AboutPic.jpg";
 import Socials from "./Socials";
@@ -25,7 +24,12 @@ export default function About() {
           {/* https://www.react-reveal.com/docs/ */}
           <Fade left>
             <h2 className="about-greeting">
-              Hi! I'm Diego <span className="wave-emoji">{emoji("👋🏼")}</span>
+              Hi! I'm Diego{" "}
+              <img
+                className="wave-emoji"
+                alt="Wave Emoji"
+                src="https://twemoji.maxcdn.com/2/72x72/1f44b-1f3fc.png"
+              />
             </h2>
             <Typography variant="h4" align="left">
               I’m a software engineer with a passion for integrating technology

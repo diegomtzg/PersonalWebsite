@@ -4,8 +4,8 @@
   height: 100vh;
 }
 
-.root {
-  width: 100% !important;
+#root {
+  position: relative !important;
   overflow-x: hidden !important;
 }
 

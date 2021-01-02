@@ -48,8 +48,8 @@ export default function About() {
               What we make reflects who we are, so I’m passionate about finding
               ways of moving technology forward in the right ways, by augmenting
               – not replacing – human experiences.
-              <Socials noLeft />
             </p>
+            <Socials noLeft />
           </Fade>
         </div>
         <div className="about-right">

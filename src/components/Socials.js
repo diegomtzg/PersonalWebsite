@@ -15,7 +15,6 @@ export default function Socials({ noLeft }) {
         className={noLeft ? "icon-button mail first" : "icon-button mail"}
       >
         <FontAwesomeIcon icon={faEnvelope} />
-        <span></span>
       </ReactGA.OutboundLink>
       <ReactGA.OutboundLink
         eventLabel="Socials: Github"

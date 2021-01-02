@@ -44,6 +44,7 @@ body {
 
 .nav-section-text {
   font-size: 1em;
+  margin: 0;
 }
 
 .dm-logo {
@@ -230,13 +231,12 @@ body {
   }
 
   .nav-section-text {
-    font-size: 3vw;
-    margin: 0;
+    font-size: 2.4vw;
   }
 
   .navbar-b.navbar-trans .nav-link:hover:before,
   .navbar-b.navbar-reduce .nav-link:hover:before {
-    width: 15px;
+    width: 5vw;
   }
 
   .navbar-b.navbar-trans .show > .nav-link:before,
@@ -247,7 +247,7 @@ body {
   .navbar-b.navbar-reduce .active > .nav-link:before,
   .navbar-b.navbar-reduce .nav-link.show:before,
   .navbar-b.navbar-reduce .nav-link.active:before {
-    width: 15px;
+    width: 5vw;
   }
 
   .home-content {

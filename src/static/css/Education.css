@@ -8,8 +8,12 @@
 
 .education-card {
   display: flex;
-  flex-direction: row !important;
+  flex-direction: row;
   justify-content: left;
+}
+
+.school-name-mobile {
+  font-size: 0;
 }
 
 .education-card:hover + .education-card-border {
@@ -34,11 +38,11 @@
 
 .education-img {
   width: 8rem;
-  height: auto;
+  height: 8rem;
   border-radius: 50%;
 }
 
-.education-card-right {
+.degree-details-div {
   margin-left: 2%;
   display: flex;
   flex-direction: column !important;
@@ -80,19 +84,43 @@
   }
 
   .education-card {
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
   }
 
   .education-card-border {
     width: 100%;
   }
 
-  .education-roundedimg {
-    object-fit: cover;
-    width: 6rem !important;
-    height: 6rem !important;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  .school-name-mobile {
+    font-size: 1.8em;
+    font-weight: 700;
+  }
+
+  .school-name {
+    font-size: 0;
+  }
+
+  .degree-name {
+    padding-top: 2px;
+    font-size: 1.25em;
+  }
+
+  .school-info-div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .degree-details-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .education-img {
+    width: 4rem !important;
+    height: 4rem !important;
     border-radius: 50%;
+    margin-right: 1em;
   }
 
   .education-card-right {

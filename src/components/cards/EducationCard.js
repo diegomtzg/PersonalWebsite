@@ -15,14 +15,15 @@ export default function EducationCard({ schoolInfo }) {
   return (
     <div>
       <div className="education-card">
-        <div className="education-card-left">
+        <div className="school-info-div">
           <img
             className="education-img"
             src={schoolInfo.logo}
             alt={schoolInfo.name}
           />
+          <h4 className="school-name-mobile">{schoolInfo.name}</h4>
         </div>
-        <div className="education-card-right">
+        <div className="degree-details-div">
           <h4 className="school-name">{schoolInfo.name}</h4>
           <h5 className="degree-name">{schoolInfo.degree}</h5>
           <p className="education-dates">

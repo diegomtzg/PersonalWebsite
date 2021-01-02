@@ -42,6 +42,10 @@ body {
   display: inline-flex;
 }
 
+.nav-section-text {
+  font-size: 1em;
+}
+
 .dm-logo {
   width: 15%;
   height: auto;
@@ -86,10 +90,6 @@ body {
   background-color: transparent;
   padding-top: 1.563rem;
   padding-bottom: 1.563rem;
-}
-
-.navbar-b.navbar-reduce {
-  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
 }
 
 .navbar-b.navbar-trans .nav-item,
@@ -211,7 +211,6 @@ body {
   .navbar {
     background-color: rgba(0, 0, 0, 0.6);
     padding-top: 1em;
-    font-size: 2.5vw;
   }
 
   .nav-container {
@@ -228,6 +227,11 @@ body {
 
   .nav-link {
     padding-bottom: 0.4em;
+  }
+
+  .nav-section-text {
+    font-size: 3vw;
+    margin: 0;
   }
 
   .navbar-b.navbar-trans .nav-link:hover:before,

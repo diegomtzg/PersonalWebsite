@@ -17,12 +17,12 @@ export default function Navbar() {
         <ul className="navbar-nav">
           <li className="nav-item">
             <a id="home-nav" className="nav-link js-scroll" href="#home">
-              <h6>Home</h6>
+              <h6 className="nav-section-text">Home</h6>
             </a>
           </li>
           <li className="nav-item">
             <a id="about-nav" className="nav-link js-scroll" href="#about">
-              <h6>About</h6>
+              <h6 className="nav-section-text">About</h6>
             </a>
           </li>
           <li className="nav-item">
@@ -31,12 +31,12 @@ export default function Navbar() {
               className="nav-link js-scroll"
               href="#education"
             >
-              <h6>Education</h6>
+              <h6 className="nav-section-text">Education</h6>
             </a>
           </li>
           <li className="nav-item">
             <a id="work-nav" className="nav-link js-scroll" href="#work">
-              <h6>Work</h6>
+              <h6 className="nav-section-text">Work</h6>
             </a>
           </li>
           <li className="nav-item">
@@ -45,12 +45,12 @@ export default function Navbar() {
               className="nav-link js-scroll"
               href="#projects"
             >
-              <h6>Projects</h6>
+              <h6 className="nav-section-text">Projects</h6>
             </a>
           </li>
           <li className="nav-item">
             <a id="skills-nav" className="nav-link js-scroll" href="#skills">
-              <h6>Skills</h6>
+              <h6 className="nav-section-text">Skills</h6>
             </a>
           </li>
         </ul>

@@ -1,5 +1,4 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
 import Fade from "react-reveal/Fade";
 import {
   faMemory,
@@ -19,9 +18,7 @@ import SkillCard from "./cards/SkillCard";
 export default function Skills() {
   return (
     <div className="section skills">
-      <Typography className="section-heading" component="h2" variant="h2">
-        Skills
-      </Typography>
+      <h2 className="section-heading">Skills</h2>
       <Fade bottom cascade>
         <div className="skills-grid">
           <SkillCard
@@ -95,7 +92,7 @@ export default function Skills() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button>
+            <Button className="section-button">
               <FontAwesomeIcon className="more-icon" icon={faDownload} />
               Resume
             </Button>

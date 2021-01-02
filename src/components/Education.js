@@ -1,16 +1,13 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
 import Slide from "react-reveal/Slide";
-import cmuLogo from "../assets/images/CMU.jpg";
+import cmuLogo from "../static/images/CMU.jpg";
 import EducationCard from "./cards/EducationCard";
 import "../static/css/Education.css";
 
 export default function Education() {
   return (
     <div className="section education">
-      <Typography className="section-heading" component="h2" variant="h2">
-        Education
-      </Typography>
+      <h2 className="section-heading">Education</h2>
       <div className="education-card-container">
         <Slide left>
           <EducationCard

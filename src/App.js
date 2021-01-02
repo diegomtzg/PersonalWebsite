@@ -9,15 +9,13 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Border from "./components/Border";
 import Footer from "./components/Footer";
-import { ThemeProvider } from "@material-ui/core/styles";
 import ReactFullpage from "@fullpage/react-fullpage";
 import Particles from "react-tsparticles";
-import particleParams from "./static/const/particles.js";
+import particleParams from "./particles.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import $ from "jquery";
 import "./static/css/App.css";
 import "./static/css/index.css";
-import theme from "./static/const/theme";
 
 function onLeave(origin, destination, direction) {
   // console.log(origin.anchor, destination.anchor);
@@ -61,32 +59,30 @@ export default function App(props) {
         fitToSection
         scrollingSpeed={600}
         responsiveWidth={1050} // Use if you can't get mobile sections to fit onto screen
-        touchSensitivity={15}
+        touchSensitivity={35}
         fixedElements={[".particles", ".nav-container"]}
         render={({ state, fullpageApi }) => {
           return (
-            <ThemeProvider theme={theme}>
-              <ReactFullpage.Wrapper>
-                <Particles
-                  height="100vh"
-                  params={particleParams}
-                  className="particles"
-                />
-                <Navbar />
-                <Home />
-                <Border />
-                <About />
-                <Border />
-                <Education />
-                <Border />
-                <Work />
-                <Border />
-                <Projects />
-                <Border />
-                <Skills />
-                <Footer />
-              </ReactFullpage.Wrapper>
-            </ThemeProvider>
+            <ReactFullpage.Wrapper>
+              <Particles
+                height="100vh"
+                params={particleParams}
+                className="particles"
+              />
+              <Navbar />
+              <Home />
+              <Border />
+              <About />
+              <Border />
+              <Education />
+              <Border />
+              <Work />
+              <Border />
+              <Projects />
+              <Border />
+              <Skills />
+              <Footer />
+            </ReactFullpage.Wrapper>
           );
         }}
       />

@@ -1,14 +1,13 @@
 import React from "react";
 import Hidden from "@material-ui/core/Hidden";
-import Typography from "@material-ui/core/Typography";
-import DM from "../assets/images/DM.png";
+import DM from "../static/images/DM.png";
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-b navbar-trans navbar-expand fixed-top nav-container">
       <div className="nav-brand-div">
         <Hidden smDown>
-          <a className="js-scroll" href="#home">
+          <a className="js-scroll active" href="#home">
             <img className="dm-logo" src={DM} alt="DM Logo" />
           </a>
         </Hidden>
@@ -17,13 +16,13 @@ export default function Navbar() {
       <div className="nav-sections-div">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a id="home-nav" className="nav-link js-scroll active" href="#home">
-              <Typography variant="h6">Home</Typography>
+            <a id="home-nav" className="nav-link js-scroll" href="#home">
+              <h6>Home</h6>
             </a>
           </li>
           <li className="nav-item">
             <a id="about-nav" className="nav-link js-scroll" href="#about">
-              <Typography variant="h6">About</Typography>
+              <h6>About</h6>
             </a>
           </li>
           <li className="nav-item">
@@ -32,12 +31,12 @@ export default function Navbar() {
               className="nav-link js-scroll"
               href="#education"
             >
-              <Typography variant="h6">Education</Typography>
+              <h6>Education</h6>
             </a>
           </li>
           <li className="nav-item">
             <a id="work-nav" className="nav-link js-scroll" href="#work">
-              <Typography variant="h6">Work</Typography>
+              <h6>Work</h6>
             </a>
           </li>
           <li className="nav-item">
@@ -46,12 +45,12 @@ export default function Navbar() {
               className="nav-link js-scroll"
               href="#projects"
             >
-              <Typography variant="h6">Projects</Typography>
+              <h6>Projects</h6>
             </a>
           </li>
           <li className="nav-item">
             <a id="skills-nav" className="nav-link js-scroll" href="#skills">
-              <Typography variant="h6">Skills</Typography>
+              <h6>Skills</h6>
             </a>
           </li>
         </ul>

@@ -1,15 +1,14 @@
 import React from "react";
 import Typed from "react-typed";
 import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
 
 export default function Home() {
   return (
     <div className="section home">
       <Grid container spacing={1}>
         <Grid item xs={12} align="center" className="home-content">
-          <Typography variant="h2">Diego Martinez</Typography>
-          <Typography variant="h3">
+          <h2 className="main-title">Diego Martinez</h2>
+          <h3 className="main-subtitle">
             <Typed
               strings={[
                 "Masters in ECE at Carnegie Mellon",
@@ -21,7 +20,7 @@ export default function Home() {
               backSpeed={40}
               loop
             />
-          </Typography>
+          </h3>
         </Grid>
       </Grid>
     </div>

@@ -1,15 +1,12 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
 import { Slide } from "react-reveal";
 
 export default function EducationCard({ schoolInfo }) {
   const GetDescBullets = ({ descBullets }) => {
     return descBullets
       ? descBullets.map((item) => (
-          <li key={item}>
-            <Typography component="p" variant="body1">
-              {item}
-            </Typography>
+          <li className="education-bullet" key={item}>
+            {item}
           </li>
         ))
       : null;
@@ -20,32 +17,23 @@ export default function EducationCard({ schoolInfo }) {
       <div className="education-card">
         <div className="education-card-left">
           <img
-            className="education-roundedimg"
+            className="education-img"
             src={schoolInfo.logo}
             alt={schoolInfo.name}
           />
         </div>
         <div className="education-card-right">
-          <Typography component="h4" variant="h4">
-            <strong>{schoolInfo.name}</strong>
-          </Typography>
-
-          <div className="education-text-details">
-            <Typography component="h5" variant="h5">
-              {schoolInfo.degree}
-            </Typography>
-            <Typography className="education-bullets-title" component="body1">
-              <strong>{schoolInfo.dates}</strong>
-              <br />
-            </Typography>
-            <Typography className="education-bullets-title" component="body1">
-              {schoolInfo.bulletsTitle}
-            </Typography>
-            <div className="education-text-bullets">
-              <ul>
-                <GetDescBullets descBullets={schoolInfo.bullets} />
-              </ul>
-            </div>
+          <h4 className="school-name">{schoolInfo.name}</h4>
+          <h5 className="degree-name">{schoolInfo.degree}</h5>
+          <p className="education-dates">
+            {schoolInfo.dates}
+            <br />
+          </p>
+          <p className="education-bullets-title">{schoolInfo.bulletsTitle}</p>
+          <div className="education-text-bullets">
+            <ul>
+              <GetDescBullets descBullets={schoolInfo.bullets} />
+            </ul>
           </div>
         </div>
       </div>

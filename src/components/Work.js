@@ -1,20 +1,17 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
 import Fade from "react-reveal/Fade";
 import WorkCard from "./cards/WorkCard";
-import xLogo from "../assets/images/X.jpg";
-import googleLogo from "../assets/images/Google.jpg";
-import microsoftLogo from "../assets/images/Microsoft.jpg";
-import cmuLogo from "../assets/images/CMU_Red.jpg";
+import xLogo from "../static/images/X.jpg";
+import googleLogo from "../static/images/Google.jpg";
+import microsoftLogo from "../static/images/Microsoft.jpg";
+import cmuLogo from "../static/images/CMU_Red.jpg";
 import "../static/css/Work.css";
 
 export default function Work() {
   return (
     <div className="section work ">
       <div className="slide">
-        <Typography className="section-heading" component="h2" variant="h2">
-          Work Experience
-        </Typography>
+        <h2 className="section-heading">Work Experience</h2>
         <Fade bottom>
           <div className="experience-cards-div">
             <WorkCard
@@ -67,9 +64,7 @@ export default function Work() {
         </Fade>
       </div>
       <div className="slide">
-        <Typography className="section-heading" component="h2" variant="h2">
-          Work Experience
-        </Typography>
+        <h2 className="section-heading">Work Experience</h2>
         <div className="experience-cards-div">
           <WorkCard
             cardInfo={{

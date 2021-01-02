@@ -1,5 +1,4 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
 import ReactGA from "react-ga";
 
 export default function ExperienceCard({ cardInfo }) {
@@ -22,9 +21,9 @@ export default function ExperienceCard({ cardInfo }) {
     >
       <div className="experience-card">
         <div className="experience-company">
-          <Typography component="h5" variant="h5">
+          <h5>
             <strong>{cardInfo.company}</strong>
-          </Typography>
+          </h5>
         </div>
         <img
           className="experience-img"

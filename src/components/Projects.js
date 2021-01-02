@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
 import Fade from "react-reveal/Fade";
 import {
   faCamera,
@@ -19,9 +18,7 @@ import ReactGA from "react-ga";
 export default function Projects() {
   return (
     <div className="section projects">
-      <Typography className="section-heading" component="h2" variant="h2">
-        Projects
-      </Typography>
+      <h2 className="section-heading">Projects</h2>
       <Fade bottom cascade>
         <div className="projects-grid">
           <ProjectCard
@@ -96,7 +93,7 @@ export default function Projects() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button>
+            <Button className="section-button">
               <FontAwesomeIcon className="more-icon" icon={faGithub} />
               View More Projects
             </Button>

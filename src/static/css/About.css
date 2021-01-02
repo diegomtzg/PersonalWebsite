@@ -25,6 +25,11 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.about-text {
+  font-size: 1.6em;
+  font-family: "Montserrat", sans-serif;
+}
+
 .wave-emoji {
   animation-duration: 1.8s;
   animation-iteration-count: infinite;
@@ -60,6 +65,10 @@
   100% {
     transform: rotate(0deg);
   }
+}
+
+.MuiAvatar-img:hover {
+  transform: scale(1.2) translate(0, 5%);
 }
 
 @media (min-width: 2000px) {

@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .main {
@@ -46,13 +47,22 @@ body {
   height: auto;
 }
 
-.MuiAvatar-img:hover {
-  transform: scale(1.2) translate(0, 5%);
+.main-title {
+  font-size: 3.8em;
+  font-weight: 600;
+  margin: 0;
+}
+
+.main-subtitle {
+  font-size: 2em;
+  font-weight: 400;
 }
 
 .section-heading {
+  font-size: 4em;
+  font-weight: 600;
   text-align: center;
-  padding: 0.5em 1em;
+  padding: 0.5em 0;
 }
 
 .section-border {
@@ -60,6 +70,10 @@ body {
   width: 100vw;
   border-top: 2px solid rgb(255, 255, 255);
   margin: 100px 0;
+}
+
+.section-button {
+  font-family: "Montserrat", sans-serif !important;
 }
 
 /* Page Nav Dots */
@@ -158,6 +172,7 @@ body {
 .footer-text {
   align-items: bottom;
   font-size: 1.2em;
+  font-weight: 500;
   margin-bottom: 0.5em;
 }
 

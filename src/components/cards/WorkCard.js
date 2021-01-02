@@ -20,11 +20,7 @@ export default function ExperienceCard({ cardInfo }) {
       rel="noopener noreferrer"
     >
       <div className="experience-card">
-        <div className="experience-company">
-          <h5>
-            <strong>{cardInfo.company}</strong>
-          </h5>
-        </div>
+        <h5 className="experience-company">{cardInfo.company}</h5>
         <img
           className="experience-img"
           src={cardInfo.logo}

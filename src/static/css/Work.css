@@ -30,8 +30,10 @@ a {
 
 .experience-company {
   color: white;
-  font-size: 1.5em;
-  margin: 1.5em;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  margin: 1em;
 }
 
 .experience-img {

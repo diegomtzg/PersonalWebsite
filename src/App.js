@@ -14,8 +14,7 @@ import Particles from "react-tsparticles";
 import particleParams from "./particles.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import $ from "jquery";
-import "./static/css/App.css";
-import "./static/css/index.css";
+import "./static/css/AppStyles.css";
 
 function onLeave(origin, destination, direction) {
   // console.log(origin.anchor, destination.anchor);

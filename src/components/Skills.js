@@ -12,8 +12,8 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ReactGA from "react-ga";
 import Button from "@material-ui/core/Button";
-import "../static/css/Skills.css";
 import SkillCard from "./cards/SkillCard";
+import "../static/css/SkillsStyles.css";
 
 export default function Skills() {
   return (

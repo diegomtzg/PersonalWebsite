@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 import profilePic from "../static/images/AboutPic.jpg";
 import Socials from "./Socials";
 import { makeStyles } from "@material-ui/core/styles";
-import "../static/css/About.css";
+import "../static/css/AboutStyles.css";
 
 const useStyles = makeStyles((theme) => ({
   large: {

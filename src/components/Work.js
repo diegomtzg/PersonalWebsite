@@ -5,7 +5,7 @@ import xLogo from "../static/images/X.jpg";
 import googleLogo from "../static/images/Google.jpg";
 import microsoftLogo from "../static/images/Microsoft.jpg";
 import cmuLogo from "../static/images/CMU_Red.jpg";
-import "../static/css/Work.css";
+import "../static/css/WorkStyles.css";
 
 export default function Work() {
   return (

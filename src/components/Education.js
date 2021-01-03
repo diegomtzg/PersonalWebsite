@@ -2,7 +2,7 @@ import React from "react";
 import Slide from "react-reveal/Slide";
 import cmuLogo from "../static/images/CMU.jpg";
 import EducationCard from "./cards/EducationCard";
-import "../static/css/Education.css";
+import "../static/css/EducationStyles.css";
 
 export default function Education() {
   return (

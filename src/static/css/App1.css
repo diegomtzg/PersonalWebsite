@@ -6,6 +6,12 @@ body {
   padding: 0;
   width: 100%;
   font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: #00e1ff !important;
 }
 
 .main {
@@ -20,6 +26,10 @@ body {
   width: 100%;
   height: 100% !important;
   z-index: -1 !important;
+}
+
+.typed-cursor {
+  color: #00e1ff !important;
 }
 
 .nav-container {

@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ProjectCard from "./cards/ProjectCard";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import ReactGA from "react-ga";
-import "../static/css/ProjectsStyles.css";
+import "../static/css/Projects1.css";
 
 export default function Projects() {
   return (

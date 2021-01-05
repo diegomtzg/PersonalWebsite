@@ -46,7 +46,7 @@ export default function About() {
               <br />
               <br />
               What we make reflects who we are, so I’m passionate about finding
-              ways of moving technology forward in the right ways, by augmenting
+              ways of moving technology forward in the right direction, by augmenting
               – not replacing – human experiences.
             </p>
             <Socials noLeft />

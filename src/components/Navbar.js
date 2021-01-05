@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="nav-sections-div">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a id="home-nav" className="nav-link js-scroll" href="#home">
+            <a id="home-nav" className="nav-link js-scroll active" href="#home">
               <h6 className="nav-section-text">Home</h6>
             </a>
           </li>

@@ -2,14 +2,13 @@
   display: grid;
   justify-content: center;
   grid-gap: 1em;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   padding: 0 5em;
 }
 
 .project-card-div {
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   padding: 2rem;
   cursor: pointer;
   margin-right: 0 !important;

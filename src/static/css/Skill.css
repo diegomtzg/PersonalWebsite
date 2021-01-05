@@ -2,8 +2,7 @@
   display: grid;
   justify-items: center;
   grid-gap: 1em;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
   padding: 0 5em;
 }
 
@@ -12,7 +11,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: auto;
+  max-width: 680px;
   background-color: rgba(0, 0, 0, 0.6);
 }
 

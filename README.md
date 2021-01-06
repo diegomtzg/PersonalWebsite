@@ -17,3 +17,5 @@ From the app's root folder, type:
 Once the build finishes, deploy using:
 
 `gcloud app deploy`
+
+![](https://media.giphy.com/media/OqGW5PzH9S6CLzoxgJ/giphy.gif)

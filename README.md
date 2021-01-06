@@ -1,5 +1,7 @@
 # Personal Website
 
+![](https://media.giphy.com/media/OqGW5PzH9S6CLzoxgJ/giphy.gif)
+
 ## Technologies used
 
 - [React](https://github.com/facebook/react)
@@ -17,5 +19,3 @@ From the app's root folder, type:
 Once the build finishes, deploy using:
 
 `gcloud app deploy`
-
-![](https://media.giphy.com/media/OqGW5PzH9S6CLzoxgJ/giphy.gif)

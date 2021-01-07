@@ -24,7 +24,7 @@ a {
   transform: scale(1.05);
 }
 
-.experience-card:hover .experience-text-company {
+.experience-card:hover .experience-company {
   color: #00e1ff;
 }
 

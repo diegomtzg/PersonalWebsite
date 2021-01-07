@@ -75,7 +75,7 @@ export default function Skills() {
           />
           <SkillCard
             skillInfo={{
-              name: "Other Technologies",
+              name: "Tools and Languages",
               proficiency: "Advanced",
               icon: faToolbox,
               color: "#04d12d",

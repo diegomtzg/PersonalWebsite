@@ -73,7 +73,7 @@ export default function Work() {
               logo: cmuLogo,
               desc:
                 "Taught concepts of design for complex systems, object oriented programming, techniques for robustness and concurrent software.",
-              date: "Summer 2018",
+              date: "Fall 2018",
               role: "TA | Principles of Software Construction",
               descBullets: [
                 "Held recitations, office hours and course-wide exam review sessions for 100+ students.",

@@ -42,6 +42,7 @@ export default function App(props) {
 
   return (
     <div className="main">
+      {/* https://github.com/alvarotrigo/fullPage.js#options */}
       <ReactFullpage
         anchors={[
           "home",
@@ -57,7 +58,7 @@ export default function App(props) {
         onLeave={onLeave}
         fitToSection
         scrollingSpeed={600}
-        responsiveWidth={1050} // Use if you can't get mobile sections to fit onto screen
+        responsiveWidth={1050}
         touchSensitivity={35}
         fixedElements={[".particles", ".nav-container"]}
         render={({ state, fullpageApi }) => {

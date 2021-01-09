@@ -47,7 +47,7 @@ export default function Projects() {
               link: "https://github.com/diegomtzg/Vitae",
               icon: faFileAlt,
               desc:
-                "Full stack web platform where users can generate custom, modular profiles that showcase their professional experiences and share them with recruiters.",
+                "Full stack web platform where users can generate custom, modular profiles for their professional experiences to share with recruiters.",
               skills: ["Web Dev"],
             }}
           />
@@ -69,7 +69,7 @@ export default function Projects() {
               link: "https://github.com/diegomtzg/MirrorX",
               icon: faTabletAlt,
               desc:
-                "Smart mirror with facial recognition login that pulls daily info from various public APIs, including calendar, curated news, local weather and even a motivational quote.",
+                "Smart mirror with facial recognition login that pulls info from various public APIs, including calendar, news, weather and even a motivational quote.",
               skills: ["Computer Vision", "SW Design"],
             }}
           />

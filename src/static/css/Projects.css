@@ -15,7 +15,7 @@
 }
 
 .project-card-div:hover {
-  transform: scale(1.08);
+  transform: scale(1.06);
   border: 2px solid #00e1ff;
 }
 
@@ -117,5 +117,6 @@
 
   .project-card-div:hover {
     transform: scale(0.95);
+    border: 2px solid #00e1ff;
   }
 }

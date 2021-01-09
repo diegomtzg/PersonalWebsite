@@ -16,7 +16,7 @@
 }
 
 .skill-card-div:hover {
-  transform: scale(1.08);
+  transform: scale(1.06);
   border: 2px solid #00e1ff;
 }
 

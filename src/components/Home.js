@@ -13,10 +13,11 @@ export default function Home() {
               strings={[
                 "Software Engineer",
                 "Technology Optimist",
+                "Masters in ECE at Carnegie Mellon",
               ]}
-              typeSpeed={50}
+              typeSpeed={70}
               backDelay={1000}
-              backSpeed={40}
+              backSpeed={50}
               loop
             />
           </h3>

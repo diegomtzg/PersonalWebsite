@@ -6,7 +6,7 @@
 
 - [React](https://github.com/facebook/react)
 - [ParticlesJS](https://github.com/VincentGarreau/particles.js)
-- [fullPage](https://github.com/alvarotrigo/react-fullpage)
+- [FullPage](https://github.com/alvarotrigo/react-fullpage)
 - [React Reveal](https://www.react-reveal.com/)
 
 ## Deploying on Google App Engine

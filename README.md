@@ -5,7 +5,7 @@
 ## Technologies used
 
 - [React](https://github.com/facebook/react)
-- [tsParticles](https://github.com/matteobruni/tsparticles)
+- [ParticlesJS](https://github.com/VincentGarreau/particles.js)
 - [fullPage](https://github.com/alvarotrigo/react-fullpage)
 - [React Reveal](https://www.react-reveal.com/)
 

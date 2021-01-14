@@ -1,3 +1,8 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+User-agent: Googlebot
+Disallow: /resume.pdf
+
+Sitemap: https://www.diegomartinez.me/sitemap.xml

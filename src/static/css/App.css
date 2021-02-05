@@ -12,6 +12,7 @@ body {
 
 ::selection {
   background: #00e1ff !important;
+  color: black;
 }
 
 .main {

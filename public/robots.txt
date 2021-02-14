@@ -2,7 +2,7 @@
 User-agent: *
 Disallow:
 
-User-agent: Googlebot
-Disallow: /resume.pdf
+User-agent: *
+Disallow: /*.pdf
 
 Sitemap: https://www.diegomartinez.me/sitemap.xml

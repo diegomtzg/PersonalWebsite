@@ -5,8 +5,8 @@
 ## Technologies used
 
 - [React](https://github.com/facebook/react)
-- [tsParticles](https://github.com/matteobruni/tsparticles)
-- [fullPage](https://github.com/alvarotrigo/react-fullpage)
+- [ParticlesJS](https://github.com/VincentGarreau/particles.js)
+- [FullPage](https://github.com/alvarotrigo/react-fullpage)
 - [React Reveal](https://www.react-reveal.com/)
 
 ## Deploying on Google App Engine

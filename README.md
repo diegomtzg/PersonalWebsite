@@ -13,8 +13,4 @@
 
 From the app's root folder, type:
 
-`npm i && npm run build`
-
-Once the build finishes, deploy using:
-
-`gcloud app deploy -q`
+`npm i && npm run build && gcloud app deploy -q`

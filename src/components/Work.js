@@ -20,7 +20,7 @@ export default function Work() {
                 companyLink: "https://x.company/projects/everyday-robots/",
                 logo: xLogo,
                 desc:
-                  "Researched new robotic grasp representations that used graphical data embeddings in images. Discovered that projecting gripper based on base velocity improved performance on an end-to-end RL grasping policy by 4% on average.",
+                  "Researched new robotic grasp representations that used graphical data embeddings in images to improve performance on an end-to-end RL grasping policy.",
                 date: "Summer 2020",
                 role: "AI Resident",
                 team: "The Everyday Robot Project",

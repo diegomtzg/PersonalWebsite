@@ -20,7 +20,7 @@ export default function Work() {
                 companyLink: "https://x.company/projects/everyday-robots/",
                 logo: xLogo,
                 desc:
-                  "Researched new robotic grasp representations that used data embeddings in images to improve performance on an end-to-end RL grasping policy.",
+                  "Researched new robotic grasp representations that used graphical data embeddings in images. Discovered that projecting gripper based on base velocity improved performance on an end-to-end RL grasping policy by 4% on average.",
                 date: "Summer 2020",
                 role: "AI Resident",
                 team: "The Everyday Robot Project",
@@ -35,7 +35,7 @@ export default function Work() {
                 companyLink: "https://x.company/projects/everyday-robots/",
                 logo: xLogo,
                 desc:
-                  "Developed an end-to-end solution to remotely teleoperate robots using an Oculus Quest.",
+                  "Developed an end-to-end VR interface to remotely teleoperate robots through human movement using an Oculus Quest.",
                 date: "Summer 2019",
                 role: "Robotics Software Intern",
                 descBullets: [

@@ -19,8 +19,7 @@ export default function Work() {
                 company: "Google[X]",
                 companyLink: "https://x.company/projects/everyday-robots/",
                 logo: xLogo,
-                desc:
-                  "Researched new robotic grasp representations that used graphical data embeddings in images to improve performance on an end-to-end RL grasping policy.",
+                desc: "Researched new robotic grasp representations that used graphical data embeddings in images to improve performance on an end-to-end RL grasping policy.",
                 date: "Summer 2020",
                 role: "AI Resident",
                 team: "The Everyday Robot Project",
@@ -34,8 +33,7 @@ export default function Work() {
                 company: "Google[X]",
                 companyLink: "https://x.company/projects/everyday-robots/",
                 logo: xLogo,
-                desc:
-                  "Developed an end-to-end VR interface to remotely teleoperate robots through human movement using an Oculus Quest.",
+                desc: "Developed an end-to-end VR interface to remotely teleoperate robots through human movement using an Oculus Quest.",
                 date: "Summer 2019",
                 role: "Robotics Software Intern",
                 descBullets: [
@@ -50,8 +48,7 @@ export default function Work() {
                 companyLink:
                   "https://chromium.googlesource.com/infra/infra/+/master/go/src/infra/tricium/README.md",
                 logo: googleLogo,
-                desc:
-                  "Developed a suite of static analyzers for Tricium, an automated code review tool for Chrome developers.",
+                desc: "Developed a suite of static analyzers for Tricium, an automated code review tool for Chrome developers.",
                 date: "Summer 2018",
                 role: "Software Engineering Intern",
                 descBullets: [
@@ -71,8 +68,7 @@ export default function Work() {
               company: "Carnegie Mellon University",
               companyLink: "https://www.cs.cmu.edu/~charlie/courses/17-214",
               logo: cmuLogo,
-              desc:
-                "Taught concepts of design for complex systems, object oriented programming, techniques for robustness and concurrent software.",
+              desc: "Taught concepts of design for complex systems, object oriented programming, techniques for robustness and concurrent software.",
               date: "Fall 2018",
               role: "TA | Principles of Software Construction",
               descBullets: [
@@ -87,8 +83,7 @@ export default function Work() {
               logo: microsoftLogo,
               companyLink:
                 "https://www.microsoft.com/en-us/account/authenticator",
-              desc:
-                "Spearheaded the technical specification, user experience design and the implementation of various features for the Microsoft Authenticator Android app:",
+              desc: "Spearheaded the technical specification, user experience design and the implementation of various features for the Microsoft Authenticator Android app:",
               date: "Summer 2017",
               role: "Explore Intern",
               descBullets: [

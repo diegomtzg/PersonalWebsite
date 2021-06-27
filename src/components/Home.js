@@ -11,9 +11,9 @@ export default function Home() {
           <h3 className="main-subtitle">
             <Typed
               strings={[
-                "Software Engineer",
+                "Software Engineer at Google",
+                "BS/MS in ECE from Carnegie Mellon",
                 "Technology Optimist",
-                "Masters in ECE at Carnegie Mellon",
               ]}
               typeSpeed={70}
               backDelay={1000}

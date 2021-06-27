@@ -23,11 +23,20 @@ export default function Projects() {
         <div className="projects-grid">
           <ProjectCard
             projectInfo={{
+              name: "HoyBoard",
+              link: "https://diegomartinez.me/projects/HoyBoard",
+              icon: faTabletAlt,
+              desc: "Daily information dashboard featuring weather, agenda, to-do list, now-playing, news, emails and motivational quotes, all in one place.",
+              skills: ["Web Dev", "SW Design"],
+            }}
+          />
+
+          <ProjectCard
+            projectInfo={{
               name: "InFrame",
               link: "https://github.com/diegomtzg/InFrame",
               icon: faCamera,
-              desc:
-                "Robotic camera system that uses real-time object detection to track user-selected targets across 3D space.",
+              desc: "Robotic camera system that uses real-time object detection to track user-selected targets across 3D space.",
               skills: ["Computer Vision", "Robotics"],
             }}
           />
@@ -36,8 +45,7 @@ export default function Projects() {
               name: "Scotty3D",
               link: "https://github.com/CMU-Graphics/Scotty3D",
               icon: faDiceD20,
-              desc:
-                "3D graphics package built from scratch with interactive mesh editing, realistic path tracing and dynamic animation.",
+              desc: "3D graphics package built from scratch with interactive mesh editing, realistic path tracing and dynamic animation.",
               skills: ["Graphics"],
             }}
           />
@@ -46,8 +54,7 @@ export default function Projects() {
               name: "Vitae",
               link: "https://github.com/diegomtzg/Vitae",
               icon: faFileAlt,
-              desc:
-                "Full stack web platform where users can generate custom, modular profiles for their professional experiences to share with recruiters.",
+              desc: "Full stack web platform where users can generate custom, modular profiles for their professional experiences to share with recruiters.",
               skills: ["Web Dev"],
             }}
           />
@@ -57,20 +64,8 @@ export default function Projects() {
               name: "CDC WonderPy",
               link: "https://github.com/diegomtzg/CDC-WonderPy",
               icon: faHeartbeat,
-              desc:
-                "An API designed to improve the CDC WONDER API and provide better programatic access to the CDC's datasets.",
+              desc: "An API designed to improve the CDC WONDER API and provide better programatic access to the CDC's datasets.",
               skills: ["SW Design"],
-            }}
-          />
-
-          <ProjectCard
-            projectInfo={{
-              name: "MirrorX",
-              link: "https://github.com/diegomtzg/MirrorX",
-              icon: faTabletAlt,
-              desc:
-                "Smart mirror with facial recognition login that pulls info from various public APIs, including calendar, news, weather and even a motivational quote.",
-              skills: ["Computer Vision", "SW Design"],
             }}
           />
 
@@ -79,8 +74,7 @@ export default function Projects() {
               name: "ScreenBacklight",
               link: "https://github.com/diegomtzg/ScreenBacklight",
               icon: faLaptopCode,
-              desc:
-                "Ambient lighting system with multiple operation modes to enhance movie viewing and music listening experience.",
+              desc: "Ambient lighting system with multiple operation modes to enhance movie viewing and music listening experience.",
               skills: ["Embedded Systems", "SW Design"],
             }}
           />

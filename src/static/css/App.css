@@ -1,4 +1,9 @@
-body {
+::selection {
+  background: #00e1ff !important;
+  color: black;
+}
+
+.main {
   background: transparent;
   color: white;
   height: 100%;
@@ -8,14 +13,6 @@ body {
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-::selection {
-  background: #00e1ff !important;
-  color: black;
-}
-
-.main {
   position: relative !important;
   overflow-x: hidden !important;
 }

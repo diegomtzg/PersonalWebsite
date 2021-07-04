@@ -8,9 +8,3 @@
 - [ParticlesJS](https://github.com/VincentGarreau/particles.js)
 - [FullPage](https://github.com/alvarotrigo/react-fullpage)
 - [React Reveal](https://www.react-reveal.com/)
-
-## Deploying on Google App Engine
-
-From the app's root folder, type:
-
-`npm i && npm run build && gcloud app deploy -q`

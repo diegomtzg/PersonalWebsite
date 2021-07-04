@@ -19,8 +19,8 @@ export default function Education() {
               dates: "August 2020 - May 2021",
               bulletsTitle: "Concentrations:",
               bullets: [
-                "Software Engineering: Large-scale Software Design, API Design, Human-centered Software.",
-                "Computational Imaging: Computer Graphics, Computer Vision and Learning-based Image Synthesis.",
+                "Software Engineering: Large-scale Software Design, API Design, Human-centered Software, Client Architecture.",
+                "Other: Computer Graphics, Computer Vision and User-Focused Sensing Systems.",
               ],
             }}
           />

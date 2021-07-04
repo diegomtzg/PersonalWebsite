@@ -16,6 +16,20 @@ export default function Work() {
           <div className="experience-cards-div">
             <WorkCard
               cardInfo={{
+                company: "Google",
+                companyLink: "https://www.google.com/maps",
+                logo: googleLogo,
+                desc: "I'm currently on the Google Maps team in Seattle, WA.",
+                date: "Current",
+                role: "Software Engineer",
+                descBullets: [
+                  "Developing beautiful and intuitive product experiences, improving the accuracy of Google's geo data, and plotting a course for the future of mapping.",
+                  "Building the most accurate, comprehensive, and useful maps for billions of users across the world.",
+                ],
+              }}
+            />
+            <WorkCard
+              cardInfo={{
                 company: "Google[X]",
                 companyLink: "https://x.company/projects/everyday-robots/",
                 logo: xLogo,
@@ -42,27 +56,27 @@ export default function Work() {
                 ],
               }}
             />
-            <WorkCard
-              cardInfo={{
-                company: "Google",
-                companyLink:
-                  "https://chromium.googlesource.com/infra/infra/+/master/go/src/infra/tricium/README.md",
-                logo: googleLogo,
-                desc: "Developed a suite of static analyzers for Tricium, an automated code review tool for Chrome developers.",
-                date: "Summer 2018",
-                role: "Software Engineering Intern",
-                descBullets: [
-                  "Analyzers include Python/C++ linters, comment spell checkers and whitespace checkers.",
-                  "The analyzers run 1,000’s reqs/hour and have generated hundreds of automated comments across Chrome dev teams.",
-                ],
-              }}
-            />
           </div>
         </Fade>
       </div>
       <div className="slide">
         <h2 className="section-heading">Work Experience</h2>
         <div className="experience-cards-div">
+          <WorkCard
+            cardInfo={{
+              company: "Google",
+              companyLink:
+                "https://chromium.googlesource.com/infra/infra/+/master/go/src/infra/tricium/README.md",
+              logo: googleLogo,
+              desc: "Developed a suite of static analyzers for Tricium, an automated code review tool for Chrome developers.",
+              date: "Summer 2018",
+              role: "Software Engineering Intern",
+              descBullets: [
+                "Analyzers include Python/C++ linters, comment spell checkers and whitespace checkers.",
+                "The analyzers run 1,000’s reqs/hour and have generated hundreds of automated comments across Chrome dev teams.",
+              ],
+            }}
+          />
           <WorkCard
             cardInfo={{
               company: "Carnegie Mellon University",

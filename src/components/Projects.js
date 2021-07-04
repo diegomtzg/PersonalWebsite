@@ -24,9 +24,9 @@ export default function Projects() {
           <ProjectCard
             projectInfo={{
               name: "HoyBoard",
-              link: "https://diegomartinez.me/projects/HoyBoard",
+              link: "https://github.com/diegomtzg/HoyBoard",
               icon: faTabletAlt,
-              desc: "Daily information dashboard featuring weather, agenda, to-do list, now-playing, news, emails and motivational quotes, all in one place.",
+              desc: "Daily information dashboard featuring weather, agenda, to-do list, now-playing music, news, emails and motivational quotes, all in one place.",
               skills: ["Web Dev", "SW Design"],
             }}
           />

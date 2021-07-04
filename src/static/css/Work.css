@@ -78,7 +78,25 @@ a {
   font-size: 1.1em;
 }
 
-@media (max-width: 1050px) {
+/* Small laptop screens */
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
+  .work {
+    font-size: 80%;
+  }
+
+  .experience-card {
+    min-height: 500px;
+  }
+
+  .experience-img {
+    width: 7rem;
+    height: auto;
+    border-radius: 50%;
+  }
+}
+
+/* For mobile */
+@media (max-width: 1000px) {
   .work {
     height: fit-content !important;
   }

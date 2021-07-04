@@ -1,5 +1,5 @@
 import { React, useEffect } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ReactGA from "react-ga";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";

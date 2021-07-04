@@ -56,7 +56,15 @@
   width: 80%;
 }
 
-@media (max-width: 1050px) {
+/* Small laptop screens */
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
+  .skills {
+    font-size: 80% !important;
+  }
+}
+
+/* For mobile */
+@media (max-width: 1000px) {
   .skills-grid {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     margin: 0;

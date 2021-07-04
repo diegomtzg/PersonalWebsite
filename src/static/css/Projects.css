@@ -104,7 +104,19 @@
   margin-right: 0.5em;
 }
 
-@media (max-width: 1050px) {
+/* Small laptop screens */
+@media screen and (min-width: 1001px) and (max-width: 1500px) {
+  .projects {
+    font-size: 80% !important;
+  }
+
+  .project-left-tag {
+    font-size: 70%;
+  }
+}
+
+/* For mobile */
+@media (max-width: 1000px) {
   .projects-grid {
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     margin: 0;

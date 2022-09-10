@@ -17,7 +17,7 @@ export default function Work() {
             <WorkCard
               cardInfo={{
                 company: "Google",
-                companyLink: "https://www.google.com/maps",
+                companyLink: "https://mapsplatform.google.com/",
                 logo: googleLogo,
                 desc: "I'm currently on the Google Maps team in Seattle, WA.",
                 date: "Current",

@@ -28,7 +28,7 @@ export default function About() {
               <img
                 className="wave-emoji"
                 alt="Wave Emoji"
-                src="https://em-content.zobj.net/thumbs/120/twitter/322/waving-hand_1f44b.png"
+                src="https://em-content.zobj.net/thumbs/120/twitter/322/waving-hand_light-skin-tone_1f44b-1f3fb_1f3fb.png"
               />
             </h2>
             <p className="about-text" align="left">

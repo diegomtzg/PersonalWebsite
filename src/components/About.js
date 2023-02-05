@@ -21,13 +21,14 @@ export default function About() {
       <div className="about-container">
         <div className="about-left">
           {/* https://www.react-reveal.com/docs/ */}
+          {/* emoji src down (https://twemoji.maxcdn.com/2/72x72/1f44b-1f3fc.png */ }
           <Fade left>
             <h2 className="about-greeting">
               Hi! I'm Diego{" "}
               <img
                 className="wave-emoji"
                 alt="Wave Emoji"
-                src="https://twemoji.maxcdn.com/2/72x72/1f44b-1f3fc.png"
+                src="https://em-content.zobj.net/thumbs/120/twitter/322/waving-hand_1f44b.png"
               />
             </h2>
             <p className="about-text" align="left">
